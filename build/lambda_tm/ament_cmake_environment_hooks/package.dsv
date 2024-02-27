@@ -1,0 +1,4 @@
+source;share/lambda_tm/local_setup.bash
+source;share/lambda_tm/local_setup.dsv
+source;share/lambda_tm/local_setup.sh
+source;share/lambda_tm/local_setup.zsh

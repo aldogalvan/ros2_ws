@@ -1,0 +1,21 @@
+[0.267s] Invoking command in '/home/agalvan-admin/ros2_ws/build/lambda_tm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/agalvan-admin/ros2_ws/build/lambda_tm -- -j8 -l8
+[0.365s] [35m[1mScanning dependencies of target lambda_force[0m
+[0.387s] [ 50%] Built target lambda_publisher
+[0.421s] [ 75%] [32mBuilding CXX object CMakeFiles/lambda_force.dir/src/lambda_force.cpp.o[0m
+[2.161s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:[m[K In member function ‘[01m[Kvoid LambdaForce::handle_disconnection()[m[K’:
+[2.161s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:76:49:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kdouble*[m[K’ to ‘[01m[Kdouble[m[K’
+[2.161s]    76 |         if (dhdSetForceAndTorqueAndGripperForce([01;31m[K&fx[m[K, &fy, &fz, &tx, &ty, &tz, &f) == 0) {
+[2.162s]       |                                                 [01;31m[K^~~[m[K
+[2.162s]       |                                                 [01;31m[K|[m[K
+[2.162s]       |                                                 [01;31m[Kdouble*[m[K
+[2.162s] In file included from [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:22[m[K:
+[2.162s] [01m[K/home/agalvan-admin/sdk-3.15.0/include/dhdc.h:268:76:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kint dhdSetForceAndTorqueAndGripperForce(double, double, double, double, double, double, double, char)[m[K’
+[2.162s]   268 |   int         __SDK dhdSetForceAndTorqueAndGripperForce            ([01;36m[Kdouble fx[m[K, double fy, double fz, double tx, double ty, double tz, double fg, char ID = -1);
+[2.163s]       |                                                                     [01;36m[K~~~~~~~^~[m[K
+[2.163s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:62:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kb[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.163s]    62 |         uint [01;35m[Kb[m[K;
+[2.163s]       |              [01;35m[K^[m[K
+[3.597s] make[2]: *** [CMakeFiles/lambda_force.dir/build.make:63: CMakeFiles/lambda_force.dir/src/lambda_force.cpp.o] Error 1
+[3.598s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/lambda_force.dir/all] Error 2
+[3.598s] make: *** [Makefile:141: all] Error 2
+[3.603s] Invoked command in '/home/agalvan-admin/ros2_ws/build/lambda_tm' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/agalvan-admin/ros2_ws/build/lambda_tm -- -j8 -l8

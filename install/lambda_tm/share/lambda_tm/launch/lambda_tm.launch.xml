@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="lambda_tm" exec="lambda_publisher" name="lambda_publisher"/>
+<!--    <node pkg="lambda_tm" exec="lambda_force" name="lambda_force"/>-->
+</launch>

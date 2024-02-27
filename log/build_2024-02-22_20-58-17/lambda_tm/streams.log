@@ -1,0 +1,12 @@
+[0.673s] Invoking command in '/home/agalvan-admin/ros2_ws/build/lambda_tm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/agalvan-admin/ros2_ws/build/lambda_tm -- -j8 -l8
+[0.773s] [35m[1mScanning dependencies of target lambda_publisher[0m
+[0.799s] [ 50%] Built target lambda_force
+[0.815s] [ 75%] [32mBuilding CXX object CMakeFiles/lambda_publisher.dir/src/lambda_publisher.cpp.o[0m
+[0.928s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:20:10:[m[K [01;31m[Kfatal error: [m[KEigen3/Geometry: No such file or directory
+[0.928s]    20 | #include [01;31m[K<Eigen3/Geometry>[m[K
+[0.929s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[0.929s] compilation terminated.
+[0.931s] make[2]: *** [CMakeFiles/lambda_publisher.dir/build.make:63: CMakeFiles/lambda_publisher.dir/src/lambda_publisher.cpp.o] Error 1
+[0.932s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/lambda_publisher.dir/all] Error 2
+[0.932s] make: *** [Makefile:141: all] Error 2
+[0.936s] Invoked command in '/home/agalvan-admin/ros2_ws/build/lambda_tm' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/agalvan-admin/ros2_ws/build/lambda_tm -- -j8 -l8

@@ -1,0 +1,56 @@
+[0.636s] Invoking command in '/home/agalvan-admin/ros2_ws/build/lambda_tm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/agalvan-admin/ros2_ws/build/lambda_tm -- -j8 -l8
+[0.731s] [35m[1mScanning dependencies of target lambda_publisher[0m
+[0.759s] [ 50%] Built target lambda_force
+[0.800s] [ 75%] [32mBuilding CXX object CMakeFiles/lambda_publisher.dir/src/lambda_publisher.cpp.o[0m
+[0.953s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:105:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+[0.953s]   105 | 
+[0.953s]       | 
+[2.762s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:76:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[2.762s]    76 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing Linear Velocity: '<%.2f, %.2f, %.2f>' & Angular Velocity '<%.2f, %.2f, %.2f>'", msg.linear.x, msg.linear.y, msg.linear.z, msg.angular.x, msg.angular.y, msg.angular.z;
+[2.763s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.763s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:28:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.763s]    28 | [01;36m[K{[m[K
+[2.763s]       | [01;36m[K^[m[K
+[2.766s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:[m[K In constructor ‘[01m[KLambdaPublisher::LambdaPublisher()[m[K’:
+[2.766s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:33:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_publishers[m[K’?
+[2.766s]    33 |         [01;31m[Kpose_publisher_[m[K = this->create_publisher<geometry_msgs::msg::Pose>("lambda_pose", 10);
+[2.767s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.767s]       |         [32m[Kcount_publishers[m[K
+[2.774s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:34:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_publishers[m[K’?
+[2.774s]    34 |         [01;31m[Kvelocity_publisher_[m[K = this->create_publisher<geometry_msgs::msg::Twist>("lambda_velocity", 10);
+[2.774s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.774s]       |         [32m[Kcount_publishers[m[K
+[2.778s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:36:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[2.778s]    36 |         [01;31m[Ktimer_[m[K = this->create_wall_timer(100ms, [this]() {
+[2.778s]       |         [01;31m[K^~~~~~[m[K
+[2.779s]       |         [32m[Ktimer_t[m[K
+[2.782s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:[m[K In member function ‘[01m[Kvoid LambdaPublisher::publishPoseMessage()[m[K’:
+[2.783s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:47:56:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kdouble (*)[3][m[K’ to ‘[01m[Kdouble*[m[K’
+[2.783s]    47 |         dhdGetPositionAndOrientationRad(&px, &py, &pz, [01;31m[Kmatrix[m[K);
+[2.783s]       |                                                        [01;31m[K^~~~~~[m[K
+[2.783s]       |                                                        [01;31m[K|[m[K
+[2.783s]       |                                                        [01;31m[Kdouble (*)[3][m[K
+[2.783s] In file included from [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:23[m[K:
+[2.783s] [01m[K/home/agalvan-admin/sdk-3.15.0/include/dhdc.h:255:113:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kint dhdGetPositionAndOrientationRad(double*, double*, double*, double*, double*, double*, char)[m[K’
+[2.784s]   255 |   int         __SDK dhdGetPositionAndOrientationRad                (double *px, double *py, double *pz, [01;36m[Kdouble *oa[m[K, double *ob, double *og, char ID = -1);
+[2.784s]       |                                                                                                         [01;36m[K~~~~~~~~^~[m[K
+[2.813s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:59:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_publishers[m[K’?
+[2.813s]    59 |         [01;31m[Kpose_publisher_[m[K->publish(msg);
+[2.813s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.813s]       |         [32m[Kcount_publishers[m[K
+[2.816s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:[m[K In member function ‘[01m[Kvoid LambdaPublisher::publishVelocityMessage()[m[K’:
+[2.816s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:76:9:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+[2.816s]    76 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing Linear Velocity: '<%.2f, %.2f, %.2f>' & Angular Velocity '<%.2f, %.2f, %.2f>'", msg.linear.x, msg.linear.y, msg.linear.z, msg.angular.x, msg.angular.y, msg.angular.z;
+[2.817s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.817s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:76:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[2.817s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:64:5:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.817s]    64 |     [01;36m[K{[m[K
+[2.817s]       |     [01;36m[K^[m[K
+[2.817s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:[m[K At global scope:
+[2.818s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:76:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[2.818s]    76 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing Linear Velocity: '<%.2f, %.2f, %.2f>' & Angular Velocity '<%.2f, %.2f, %.2f>'", msg.linear.x, msg.linear.y, msg.linear.z, msg.angular.x, msg.angular.y, msg.angular.z;
+[2.818s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[3.563s] make[2]: *** [CMakeFiles/lambda_publisher.dir/build.make:63: CMakeFiles/lambda_publisher.dir/src/lambda_publisher.cpp.o] Error 1
+[3.563s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/lambda_publisher.dir/all] Error 2
+[3.564s] make: *** [Makefile:141: all] Error 2
+[3.568s] Invoked command in '/home/agalvan-admin/ros2_ws/build/lambda_tm' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/agalvan-admin/ros2_ws/build/lambda_tm -- -j8 -l8

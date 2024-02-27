@@ -1,0 +1,4 @@
+source;share/force_dimension/local_setup.bash
+source;share/force_dimension/local_setup.dsv
+source;share/force_dimension/local_setup.sh
+source;share/force_dimension/local_setup.zsh

@@ -1,0 +1,4 @@
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:[m[K In member function ‘[01m[Kvoid LambdaForce::handle_disconnection()[m[K’:
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:62:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kb[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   62 |         uint [01;35m[Kb[m[K;
+      |              [01;35m[K^[m[K

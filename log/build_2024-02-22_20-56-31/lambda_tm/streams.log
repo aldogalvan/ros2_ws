@@ -1,0 +1,40 @@
+[0.719s] Invoking command in '/home/agalvan-admin/ros2_ws/build/lambda_tm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/agalvan-admin/ros2_ws/build/lambda_tm -- -j8 -l8
+[0.777s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.817s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.916s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.958s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.962s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.106s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.161s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.163s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.182s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.324s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[1.370s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.448s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.449s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.449s] -- Configured cppcheck include dirs: /home/agalvan-admin/ros2_ws/src/lambda_tm/include
+[1.449s] -- Configured cppcheck exclude dirs and/or files: 
+[1.450s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.450s] -- Configured cpplint exclude dirs and/or files: 
+[1.451s] -- Added test 'lint_cmake' to check CMake code style
+[1.452s] -- Added test 'uncrustify' to check C / C++ code style
+[1.452s] -- Configured uncrustify additional arguments: 
+[1.453s] -- Added test 'xmllint' to check XML markup files
+[1.455s] -- Configuring done
+[1.465s] -- Generating done
+[1.466s] -- Build files have been written to: /home/agalvan-admin/ros2_ws/build/lambda_tm
+[1.513s] [35m[1mScanning dependencies of target lambda_force[0m
+[1.521s] [35m[1mScanning dependencies of target lambda_publisher[0m
+[1.559s] [ 25%] [32mBuilding CXX object CMakeFiles/lambda_force.dir/src/lambda_force.cpp.o[0m
+[1.564s] [ 50%] [32mBuilding CXX object CMakeFiles/lambda_publisher.dir/src/lambda_publisher.cpp.o[0m
+[1.681s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:20:10:[m[K [01;31m[Kfatal error: [m[KEigen3/Geometry: No such file or directory
+[1.681s]    20 | #include [01;31m[K"Eigen3/Geometry"[m[K
+[1.682s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.682s] compilation terminated.
+[1.684s] make[2]: *** [CMakeFiles/lambda_publisher.dir/build.make:63: CMakeFiles/lambda_publisher.dir/src/lambda_publisher.cpp.o] Error 1
+[1.685s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/lambda_publisher.dir/all] Error 2
+[1.685s] make[1]: *** Waiting for unfinished jobs....
+[7.681s] [ 75%] [32m[1mLinking CXX executable lambda_force[0m
+[8.034s] [ 75%] Built target lambda_force
+[8.036s] make: *** [Makefile:141: all] Error 2
+[8.039s] Invoked command in '/home/agalvan-admin/ros2_ws/build/lambda_tm' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/agalvan-admin/ros2_ws/build/lambda_tm -- -j8 -l8

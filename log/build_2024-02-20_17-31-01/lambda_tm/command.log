@@ -1,0 +1,6 @@
+Invoking command in '/home/agalvan-admin/ros2_ws/build/lambda_tm': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/agalvan-admin/ros2_ws/src/lambda_tm -DCMAKE_CXX_STANDARD_LIBRARIES=-lusb-1.0 -DCMAKE_INSTALL_PREFIX=/home/agalvan-admin/ros2_ws/install/lambda_tm
+Invoked command in '/home/agalvan-admin/ros2_ws/build/lambda_tm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/agalvan-admin/ros2_ws/src/lambda_tm -DCMAKE_CXX_STANDARD_LIBRARIES=-lusb-1.0 -DCMAKE_INSTALL_PREFIX=/home/agalvan-admin/ros2_ws/install/lambda_tm
+Invoking command in '/home/agalvan-admin/ros2_ws/build/lambda_tm': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/agalvan-admin/ros2_ws/build/lambda_tm -- -j8 -l8
+Invoked command in '/home/agalvan-admin/ros2_ws/build/lambda_tm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/agalvan-admin/ros2_ws/build/lambda_tm -- -j8 -l8
+Invoking command in '/home/agalvan-admin/ros2_ws/build/lambda_tm': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/agalvan-admin/ros2_ws/build/lambda_tm
+Invoked command in '/home/agalvan-admin/ros2_ws/build/lambda_tm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/agalvan-admin/ros2_ws/build/lambda_tm

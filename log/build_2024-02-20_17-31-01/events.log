@@ -1,0 +1,341 @@
+[0.000000] (-) TimerEvent: {}
+[0.000692] (force_dimension) JobQueued: {'identifier': 'force_dimension', 'dependencies': OrderedDict()}
+[0.000771] (lambda_tm) JobQueued: {'identifier': 'lambda_tm', 'dependencies': OrderedDict()}
+[0.000823] (force_dimension) JobStarted: {'identifier': 'force_dimension'}
+[0.099956] (-) TimerEvent: {}
+[0.181902] (lambda_tm) JobStarted: {'identifier': 'lambda_tm'}
+[0.200900] (-) TimerEvent: {}
+[0.302281] (-) TimerEvent: {}
+[0.352262] (force_dimension) JobProgress: {'identifier': 'force_dimension', 'progress': 'cmake'}
+[0.352793] (force_dimension) Command: {'cmd': ['/usr/bin/cmake', '/home/agalvan-admin/ros2_ws/src/force_dimension', '-DCMAKE_CXX_STANDARD_LIBRARIES=-lusb-1.0', '-DCMAKE_INSTALL_PREFIX=/home/agalvan-admin/ros2_ws/install/force_dimension'], 'cwd': '/home/agalvan-admin/ros2_ws/build/force_dimension', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'agalvan-admin'), ('LIBIGL_ROOT', '/home/agalvan-admin/libigl'), ('SSH_AGENT_PID', '2678'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib::/home/agalvan-admin/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('HOME', '/home/agalvan-admin'), ('OLDPWD', '/home/agalvan-admin/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('OH_SDK_BASE', '/opt/OpenHaptics/Developer/3.4-0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2500'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLORTERM', 'truecolor'), ('ForceDimensionSDK_DIR', '/home/agalvan-admin/sdk-3.15.0'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'agalvan-admin'), ('JOURNAL_STREAM', '8:53225'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'agalvan-admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/cuda/bin:/home/agalvan-admin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin'), ('SESSION_MANAGER', 'local/ME-D15165.austin.utexas.edu:@/tmp/.ICE-unix/2750,unix/ME-D15165.austin.utexas.edu:/tmp/.ICE-unix/2750'), ('INVOCATION_ID', '0ddafcf102064bf49ace1b1e49034af8'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9db73297_96af_44b8_89e6_db92709dfb6f'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('DISPLAY', ':1'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1002/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.429'), ('SSH_AUTH_SOCK', '/run/user/1002/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://ubuntu.ubuntu:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1002/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/agalvan-admin/ros2_ws/build/force_dimension'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('ROS_HOSTNAME', 'ubuntu.ubuntu'), ('COLCON', '1'), ('MANPATH', ':/opt/puppetlabs/puppet/share/man'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.360185] (lambda_tm) JobProgress: {'identifier': 'lambda_tm', 'progress': 'cmake'}
+[0.362241] (lambda_tm) Command: {'cmd': ['/usr/bin/cmake', '/home/agalvan-admin/ros2_ws/src/lambda_tm', '-DCMAKE_CXX_STANDARD_LIBRARIES=-lusb-1.0', '-DCMAKE_INSTALL_PREFIX=/home/agalvan-admin/ros2_ws/install/lambda_tm'], 'cwd': '/home/agalvan-admin/ros2_ws/build/lambda_tm', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'agalvan-admin'), ('LIBIGL_ROOT', '/home/agalvan-admin/libigl'), ('SSH_AGENT_PID', '2678'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib::/home/agalvan-admin/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('HOME', '/home/agalvan-admin'), ('OLDPWD', '/home/agalvan-admin/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('OH_SDK_BASE', '/opt/OpenHaptics/Developer/3.4-0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2500'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLORTERM', 'truecolor'), ('ForceDimensionSDK_DIR', '/home/agalvan-admin/sdk-3.15.0'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'agalvan-admin'), ('JOURNAL_STREAM', '8:53225'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'agalvan-admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/cuda/bin:/home/agalvan-admin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin'), ('SESSION_MANAGER', 'local/ME-D15165.austin.utexas.edu:@/tmp/.ICE-unix/2750,unix/ME-D15165.austin.utexas.edu:/tmp/.ICE-unix/2750'), ('INVOCATION_ID', '0ddafcf102064bf49ace1b1e49034af8'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9db73297_96af_44b8_89e6_db92709dfb6f'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('DISPLAY', ':1'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1002/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.429'), ('SSH_AUTH_SOCK', '/run/user/1002/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://ubuntu.ubuntu:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1002/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/agalvan-admin/ros2_ws/build/lambda_tm'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('ROS_HOSTNAME', 'ubuntu.ubuntu'), ('COLCON', '1'), ('MANPATH', ':/opt/puppetlabs/puppet/share/man'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.402464] (-) TimerEvent: {}
+[0.477515] (force_dimension) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.487321] (lambda_tm) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.502595] (-) TimerEvent: {}
+[0.566417] (force_dimension) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.573925] (lambda_tm) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.578115] (force_dimension) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.583676] (lambda_tm) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.602720] (-) TimerEvent: {}
+[0.703120] (-) TimerEvent: {}
+[0.706759] (lambda_tm) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.707789] (lambda_tm) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.722739] (force_dimension) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.723749] (force_dimension) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.803278] (-) TimerEvent: {}
+[0.834486] (lambda_tm) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.846926] (force_dimension) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.848881] (lambda_tm) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.849175] (lambda_tm) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.851297] (lambda_tm) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.859897] (force_dimension) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.860397] (force_dimension) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.862236] (force_dimension) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.903440] (-) TimerEvent: {}
+[1.003020] (lambda_tm) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.003513] (-) TimerEvent: {}
+[1.004095] (lambda_tm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.005800] (force_dimension) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.008591] (force_dimension) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.103707] (-) TimerEvent: {}
+[1.157350] (lambda_tm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.157536] (force_dimension) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.168174] (lambda_tm) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.168648] (lambda_tm) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.170253] (lambda_tm) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[1.182440] (force_dimension) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.182982] (force_dimension) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.184886] (force_dimension) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[1.203811] (-) TimerEvent: {}
+[1.211193] (lambda_tm) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.211441] (lambda_tm) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.223339] (force_dimension) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.223563] (force_dimension) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.302571] (lambda_tm) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[1.303951] (-) TimerEvent: {}
+[1.312662] (force_dimension) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[1.344156] (lambda_tm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.348969] (lambda_tm) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[1.354096] (force_dimension) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.359045] (force_dimension) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[1.404098] (-) TimerEvent: {}
+[1.486643] (lambda_tm) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.495620] (force_dimension) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.504266] (-) TimerEvent: {}
+[1.528068] (lambda_tm) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[1.538509] (force_dimension) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[1.604390] (-) TimerEvent: {}
+[1.617390] (force_dimension) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.627031] (lambda_tm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.669158] (force_dimension) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[1.671200] (force_dimension) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.678864] (lambda_tm) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[1.680981] (lambda_tm) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.688258] (force_dimension) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.688987] (force_dimension) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.698399] (lambda_tm) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.699107] (lambda_tm) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.704452] (-) TimerEvent: {}
+[1.804693] (-) TimerEvent: {}
+[1.819730] (lambda_tm) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.820041] (lambda_tm) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.824999] (force_dimension) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.825355] (force_dimension) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.904816] (-) TimerEvent: {}
+[1.956465] (force_dimension) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.956868] (force_dimension) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.973486] (lambda_tm) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.973838] (lambda_tm) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[2.004953] (-) TimerEvent: {}
+[2.073525] (force_dimension) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[2.073884] (force_dimension) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.105104] (-) TimerEvent: {}
+[2.124402] (lambda_tm) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[2.124862] (lambda_tm) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.205270] (-) TimerEvent: {}
+[2.243864] (force_dimension) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.245085] (force_dimension) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.289788] (lambda_tm) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.291237] (lambda_tm) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.305375] (-) TimerEvent: {}
+[2.396023] (force_dimension) StdoutLine: {'line': b'-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)\n'}
+[2.405481] (-) TimerEvent: {}
+[2.427064] (force_dimension) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.2 (/opt/ros/galactic/share/example_interfaces/cmake)\n'}
+[2.456593] (lambda_tm) StdoutLine: {'line': b'-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)\n'}
+[2.500596] (lambda_tm) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[2.501597] (lambda_tm) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.505552] (-) TimerEvent: {}
+[2.536668] (force_dimension) StdoutLine: {'line': b'-- Found rclpy: 1.9.3 (/opt/ros/galactic/share/rclpy/cmake)\n'}
+[2.540890] (lambda_tm) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.23\n'}
+[2.605733] (-) TimerEvent: {}
+[2.628529] (force_dimension) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[2.634966] (lambda_tm) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[2.705901] (-) TimerEvent: {}
+[2.714270] (force_dimension) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.717963] (force_dimension) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.718162] (force_dimension) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.718246] (force_dimension) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.720454] (force_dimension) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.720584] (force_dimension) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.721056] (force_dimension) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.721895] (force_dimension) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.722506] (force_dimension) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[2.724841] (force_dimension) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.724963] (force_dimension) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.725420] (force_dimension) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.727976] (force_dimension) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.735661] (lambda_tm) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.737058] (force_dimension) StdoutLine: {'line': b'-- Generating done\n'}
+[2.737435] (lambda_tm) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.737673] (lambda_tm) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.737813] (lambda_tm) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.738762] (force_dimension) StdoutLine: {'line': b'-- Build files have been written to: /home/agalvan-admin/ros2_ws/build/force_dimension\n'}
+[2.739017] (lambda_tm) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.739154] (lambda_tm) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.739817] (lambda_tm) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.741103] (lambda_tm) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.741284] (lambda_tm) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.741781] (lambda_tm) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.745416] (lambda_tm) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.750308] (force_dimension) CommandEnded: {'returncode': 0}
+[2.751765] (force_dimension) JobProgress: {'identifier': 'force_dimension', 'progress': 'build'}
+[2.756411] (force_dimension) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/agalvan-admin/ros2_ws/build/force_dimension', '--', '-j8', '-l8'], 'cwd': '/home/agalvan-admin/ros2_ws/build/force_dimension', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'agalvan-admin'), ('LIBIGL_ROOT', '/home/agalvan-admin/libigl'), ('SSH_AGENT_PID', '2678'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib::/home/agalvan-admin/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('HOME', '/home/agalvan-admin'), ('OLDPWD', '/home/agalvan-admin/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('OH_SDK_BASE', '/opt/OpenHaptics/Developer/3.4-0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2500'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLORTERM', 'truecolor'), ('ForceDimensionSDK_DIR', '/home/agalvan-admin/sdk-3.15.0'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'agalvan-admin'), ('JOURNAL_STREAM', '8:53225'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'agalvan-admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/cuda/bin:/home/agalvan-admin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin'), ('SESSION_MANAGER', 'local/ME-D15165.austin.utexas.edu:@/tmp/.ICE-unix/2750,unix/ME-D15165.austin.utexas.edu:/tmp/.ICE-unix/2750'), ('INVOCATION_ID', '0ddafcf102064bf49ace1b1e49034af8'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9db73297_96af_44b8_89e6_db92709dfb6f'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('DISPLAY', ':1'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1002/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.429'), ('SSH_AUTH_SOCK', '/run/user/1002/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://ubuntu.ubuntu:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1002/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/agalvan-admin/ros2_ws/build/force_dimension'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('ROS_HOSTNAME', 'ubuntu.ubuntu'), ('COLCON', '1'), ('MANPATH', ':/opt/puppetlabs/puppet/share/man'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[2.758738] (lambda_tm) StdoutLine: {'line': b'-- Generating done\n'}
+[2.760130] (lambda_tm) StdoutLine: {'line': b'-- Build files have been written to: /home/agalvan-admin/ros2_ws/build/lambda_tm\n'}
+[2.765302] (lambda_tm) CommandEnded: {'returncode': 0}
+[2.766763] (lambda_tm) JobProgress: {'identifier': 'lambda_tm', 'progress': 'build'}
+[2.767891] (lambda_tm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/agalvan-admin/ros2_ws/build/lambda_tm', '--', '-j8', '-l8'], 'cwd': '/home/agalvan-admin/ros2_ws/build/lambda_tm', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'agalvan-admin'), ('LIBIGL_ROOT', '/home/agalvan-admin/libigl'), ('SSH_AGENT_PID', '2678'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib::/home/agalvan-admin/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('HOME', '/home/agalvan-admin'), ('OLDPWD', '/home/agalvan-admin/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('OH_SDK_BASE', '/opt/OpenHaptics/Developer/3.4-0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2500'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLORTERM', 'truecolor'), ('ForceDimensionSDK_DIR', '/home/agalvan-admin/sdk-3.15.0'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'agalvan-admin'), ('JOURNAL_STREAM', '8:53225'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'agalvan-admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/cuda/bin:/home/agalvan-admin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin'), ('SESSION_MANAGER', 'local/ME-D15165.austin.utexas.edu:@/tmp/.ICE-unix/2750,unix/ME-D15165.austin.utexas.edu:/tmp/.ICE-unix/2750'), ('INVOCATION_ID', '0ddafcf102064bf49ace1b1e49034af8'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9db73297_96af_44b8_89e6_db92709dfb6f'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('DISPLAY', ':1'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1002/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.429'), ('SSH_AUTH_SOCK', '/run/user/1002/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://ubuntu.ubuntu:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1002/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/agalvan-admin/ros2_ws/build/lambda_tm'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('ROS_HOSTNAME', 'ubuntu.ubuntu'), ('COLCON', '1'), ('MANPATH', ':/opt/puppetlabs/puppet/share/man'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[2.806097] (-) TimerEvent: {}
+[2.841082] (lambda_tm) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target lambda_publisher\x1b[0m\n'}
+[2.846304] (force_dimension) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ament_cmake_python_copy_force_dimension\x1b[0m\n'}
+[2.849232] (force_dimension) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target node\x1b[0m\n'}
+[2.882512] (lambda_tm) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/lambda_publisher.dir/src/lambda_publisher.cpp.o\x1b[0m\n'}
+[2.888230] (force_dimension) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_force_dimension\n'}
+[2.906216] (-) TimerEvent: {}
+[2.912374] (force_dimension) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/node.dir/src/log.cpp.o\x1b[0m\n'}
+[2.912623] (force_dimension) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/node.dir/src/node.cpp.o\x1b[0m\n'}
+[2.915169] (force_dimension) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/node.dir/src/parameters.cpp.o\x1b[0m\n'}
+[2.915581] (force_dimension) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/node.dir/src/entry_point.cpp.o\x1b[0m\n'}
+[2.916930] (force_dimension) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/node.dir/src/subscribe.cpp.o\x1b[0m\n'}
+[2.917964] (force_dimension) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ament_cmake_python_build_force_dimension_egg\x1b[0m\n'}
+[2.921320] (force_dimension) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/node.dir/src/publish.cpp.o\x1b[0m\n'}
+[2.927873] (force_dimension) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/node.dir/src/gravity_compensation.cpp.o\x1b[0m\n'}
+[3.006320] (-) TimerEvent: {}
+[3.106670] (-) TimerEvent: {}
+[3.207041] (-) TimerEvent: {}
+[3.307445] (-) TimerEvent: {}
+[3.408178] (-) TimerEvent: {}
+[3.410192] (force_dimension) StdoutLine: {'line': b'running egg_info\n'}
+[3.411273] (force_dimension) StdoutLine: {'line': b'creating force_dimension.egg-info\n'}
+[3.411696] (force_dimension) StdoutLine: {'line': b'writing force_dimension.egg-info/PKG-INFO\n'}
+[3.411964] (force_dimension) StdoutLine: {'line': b'writing dependency_links to force_dimension.egg-info/dependency_links.txt\n'}
+[3.412164] (force_dimension) StdoutLine: {'line': b'writing top-level names to force_dimension.egg-info/top_level.txt\n'}
+[3.413991] (force_dimension) StdoutLine: {'line': b"writing manifest file 'force_dimension.egg-info/SOURCES.txt'\n"}
+[3.508274] (-) TimerEvent: {}
+[3.528032] (force_dimension) StdoutLine: {'line': b"reading manifest file 'force_dimension.egg-info/SOURCES.txt'\n"}
+[3.528903] (force_dimension) StdoutLine: {'line': b"writing manifest file 'force_dimension.egg-info/SOURCES.txt'\n"}
+[3.608388] (-) TimerEvent: {}
+[3.664462] (force_dimension) StdoutLine: {'line': b'[ 77%] Built target ament_cmake_python_build_force_dimension_egg\n'}
+[3.708505] (-) TimerEvent: {}
+[3.723665] (force_dimension) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/node.dir/src/forces.cpp.o\x1b[0m\n'}
+[3.808620] (-) TimerEvent: {}
+[3.908981] (-) TimerEvent: {}
+[4.009440] (-) TimerEvent: {}
+[4.109918] (-) TimerEvent: {}
+[4.210401] (-) TimerEvent: {}
+[4.311757] (-) TimerEvent: {}
+[4.412133] (-) TimerEvent: {}
+[4.512514] (-) TimerEvent: {}
+[4.612893] (-) TimerEvent: {}
+[4.713277] (-) TimerEvent: {}
+[4.813651] (-) TimerEvent: {}
+[4.914040] (-) TimerEvent: {}
+[5.014499] (-) TimerEvent: {}
+[5.114963] (-) TimerEvent: {}
+[5.215420] (-) TimerEvent: {}
+[5.316129] (-) TimerEvent: {}
+[5.416564] (-) TimerEvent: {}
+[5.517413] (-) TimerEvent: {}
+[5.617883] (-) TimerEvent: {}
+[5.718247] (-) TimerEvent: {}
+[5.818617] (-) TimerEvent: {}
+[5.918992] (-) TimerEvent: {}
+[6.019366] (-) TimerEvent: {}
+[6.119717] (-) TimerEvent: {}
+[6.220063] (-) TimerEvent: {}
+[6.320419] (-) TimerEvent: {}
+[6.420788] (-) TimerEvent: {}
+[6.521157] (-) TimerEvent: {}
+[6.621526] (-) TimerEvent: {}
+[6.721911] (-) TimerEvent: {}
+[6.822284] (-) TimerEvent: {}
+[6.922656] (-) TimerEvent: {}
+[7.023014] (-) TimerEvent: {}
+[7.123398] (-) TimerEvent: {}
+[7.223786] (-) TimerEvent: {}
+[7.324153] (-) TimerEvent: {}
+[7.424534] (-) TimerEvent: {}
+[7.524902] (-) TimerEvent: {}
+[7.625267] (-) TimerEvent: {}
+[7.725630] (-) TimerEvent: {}
+[7.826052] (-) TimerEvent: {}
+[7.926577] (-) TimerEvent: {}
+[8.027049] (-) TimerEvent: {}
+[8.127515] (-) TimerEvent: {}
+[8.228030] (-) TimerEvent: {}
+[8.328511] (-) TimerEvent: {}
+[8.428976] (-) TimerEvent: {}
+[8.529428] (-) TimerEvent: {}
+[8.629933] (-) TimerEvent: {}
+[8.730388] (-) TimerEvent: {}
+[8.830831] (-) TimerEvent: {}
+[8.931236] (-) TimerEvent: {}
+[9.014930] (lambda_tm) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lambda_publisher\x1b[0m\n'}
+[9.031355] (-) TimerEvent: {}
+[9.131742] (-) TimerEvent: {}
+[9.232192] (-) TimerEvent: {}
+[9.274051] (lambda_tm) StdoutLine: {'line': b'[100%] Built target lambda_publisher\n'}
+[9.291134] (lambda_tm) CommandEnded: {'returncode': 0}
+[9.332316] (-) TimerEvent: {}
+[9.371590] (lambda_tm) JobProgress: {'identifier': 'lambda_tm', 'progress': 'install'}
+[9.398521] (lambda_tm) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/agalvan-admin/ros2_ws/build/lambda_tm'], 'cwd': '/home/agalvan-admin/ros2_ws/build/lambda_tm', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'agalvan-admin'), ('LIBIGL_ROOT', '/home/agalvan-admin/libigl'), ('SSH_AGENT_PID', '2678'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib::/home/agalvan-admin/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('HOME', '/home/agalvan-admin'), ('OLDPWD', '/home/agalvan-admin/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('OH_SDK_BASE', '/opt/OpenHaptics/Developer/3.4-0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2500'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLORTERM', 'truecolor'), ('ForceDimensionSDK_DIR', '/home/agalvan-admin/sdk-3.15.0'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'agalvan-admin'), ('JOURNAL_STREAM', '8:53225'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'agalvan-admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/cuda/bin:/home/agalvan-admin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin'), ('SESSION_MANAGER', 'local/ME-D15165.austin.utexas.edu:@/tmp/.ICE-unix/2750,unix/ME-D15165.austin.utexas.edu:/tmp/.ICE-unix/2750'), ('INVOCATION_ID', '0ddafcf102064bf49ace1b1e49034af8'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9db73297_96af_44b8_89e6_db92709dfb6f'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('DISPLAY', ':1'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1002/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.429'), ('SSH_AUTH_SOCK', '/run/user/1002/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://ubuntu.ubuntu:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1002/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/agalvan-admin/ros2_ws/build/lambda_tm'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('ROS_HOSTNAME', 'ubuntu.ubuntu'), ('COLCON', '1'), ('MANPATH', ':/opt/puppetlabs/puppet/share/man'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[9.412039] (lambda_tm) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.412331] (lambda_tm) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/lambda_tm/lib/lambda_tm/lambda_publisher\n'}
+[9.413977] (lambda_tm) StdoutLine: {'line': b'-- Set runtime path of "/home/agalvan-admin/ros2_ws/install/lambda_tm/lib/lambda_tm/lambda_publisher" to ""\n'}
+[9.414199] (lambda_tm) StdoutLine: {'line': b'-- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm//launch\n'}
+[9.414365] (lambda_tm) StdoutLine: {'line': b'-- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm//launch/lambda_tm.launch.xml\n'}
+[9.414528] (lambda_tm) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/ament_index/resource_index/package_run_dependencies/lambda_tm\n'}
+[9.414631] (lambda_tm) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/ament_index/resource_index/parent_prefix_path/lambda_tm\n'}
+[9.414728] (lambda_tm) StdoutLine: {'line': b'-- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/environment/ament_prefix_path.sh\n'}
+[9.414823] (lambda_tm) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/environment/ament_prefix_path.dsv\n'}
+[9.414921] (lambda_tm) StdoutLine: {'line': b'-- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/environment/path.sh\n'}
+[9.415088] (lambda_tm) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/environment/path.dsv\n'}
+[9.415190] (lambda_tm) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/local_setup.bash\n'}
+[9.415283] (lambda_tm) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/local_setup.sh\n'}
+[9.415377] (lambda_tm) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/local_setup.zsh\n'}
+[9.415472] (lambda_tm) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/local_setup.dsv\n'}
+[9.415611] (lambda_tm) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/package.dsv\n'}
+[9.415701] (lambda_tm) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/ament_index/resource_index/packages/lambda_tm\n'}
+[9.415791] (lambda_tm) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/cmake/lambda_tmConfig.cmake\n'}
+[9.415879] (lambda_tm) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/cmake/lambda_tmConfig-version.cmake\n'}
+[9.415967] (lambda_tm) StdoutLine: {'line': b'-- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/package.xml\n'}
+[9.417674] (lambda_tm) CommandEnded: {'returncode': 0}
+[9.432449] (-) TimerEvent: {}
+[9.533068] (-) TimerEvent: {}
+[9.633473] (-) TimerEvent: {}
+[9.734168] (-) TimerEvent: {}
+[9.834974] (-) TimerEvent: {}
+[9.921331] (lambda_tm) JobEnded: {'identifier': 'lambda_tm', 'rc': 0}
+[9.935075] (-) TimerEvent: {}
+[10.035382] (-) TimerEvent: {}
+[10.135740] (-) TimerEvent: {}
+[10.236065] (-) TimerEvent: {}
+[10.336438] (-) TimerEvent: {}
+[10.436869] (-) TimerEvent: {}
+[10.537286] (-) TimerEvent: {}
+[10.637775] (-) TimerEvent: {}
+[10.738266] (-) TimerEvent: {}
+[10.838759] (-) TimerEvent: {}
+[10.939248] (-) TimerEvent: {}
+[11.039751] (-) TimerEvent: {}
+[11.140214] (-) TimerEvent: {}
+[11.240642] (-) TimerEvent: {}
+[11.341087] (-) TimerEvent: {}
+[11.376323] (force_dimension) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable node\x1b[0m\n'}
+[11.441221] (-) TimerEvent: {}
+[11.541745] (-) TimerEvent: {}
+[11.642255] (-) TimerEvent: {}
+[11.742773] (-) TimerEvent: {}
+[11.830768] (force_dimension) StdoutLine: {'line': b'[100%] Built target node\n'}
+[11.842952] (-) TimerEvent: {}
+[11.847059] (force_dimension) CommandEnded: {'returncode': 0}
+[11.943237] (-) TimerEvent: {}
+[11.986338] (force_dimension) JobProgress: {'identifier': 'force_dimension', 'progress': 'install'}
+[11.987584] (force_dimension) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/agalvan-admin/ros2_ws/build/force_dimension'], 'cwd': '/home/agalvan-admin/ros2_ws/build/force_dimension', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'agalvan-admin'), ('LIBIGL_ROOT', '/home/agalvan-admin/libigl'), ('SSH_AGENT_PID', '2678'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib::/home/agalvan-admin/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('HOME', '/home/agalvan-admin'), ('OLDPWD', '/home/agalvan-admin/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('OH_SDK_BASE', '/opt/OpenHaptics/Developer/3.4-0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2500'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLORTERM', 'truecolor'), ('ForceDimensionSDK_DIR', '/home/agalvan-admin/sdk-3.15.0'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'agalvan-admin'), ('JOURNAL_STREAM', '8:53225'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'agalvan-admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/cuda/bin:/home/agalvan-admin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin'), ('SESSION_MANAGER', 'local/ME-D15165.austin.utexas.edu:@/tmp/.ICE-unix/2750,unix/ME-D15165.austin.utexas.edu:/tmp/.ICE-unix/2750'), ('INVOCATION_ID', '0ddafcf102064bf49ace1b1e49034af8'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9db73297_96af_44b8_89e6_db92709dfb6f'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('DISPLAY', ':1'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1002/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.429'), ('SSH_AUTH_SOCK', '/run/user/1002/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://ubuntu.ubuntu:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1002/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/agalvan-admin/ros2_ws/build/force_dimension'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('ROS_HOSTNAME', 'ubuntu.ubuntu'), ('COLCON', '1'), ('MANPATH', ':/opt/puppetlabs/puppet/share/man'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[12.003177] (force_dimension) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.003586] (force_dimension) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/lib/force_dimension/node\n'}
+[12.007097] (force_dimension) StdoutLine: {'line': b'-- Set runtime path of "/home/agalvan-admin/ros2_ws/install/force_dimension/lib/force_dimension/node" to ""\n'}
+[12.007502] (force_dimension) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension//launch\n'}
+[12.007683] (force_dimension) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension//launch/record_bag.launch.py\n'}
+[12.007855] (force_dimension) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension//launch/example.launch.py\n'}
+[12.008012] (force_dimension) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension//launch/echo_position.launch.py\n'}
+[12.008166] (force_dimension) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension/environment/pythonpath.sh\n'}
+[12.008344] (force_dimension) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension/environment/pythonpath.dsv\n'}
+[12.008580] (force_dimension) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/lib/python3.8/site-packages//force_dimension.egg-info\n'}
+[12.008722] (force_dimension) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/lib/python3.8/site-packages//force_dimension.egg-info/top_level.txt\n'}
+[12.008865] (force_dimension) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/lib/python3.8/site-packages//force_dimension.egg-info/dependency_links.txt\n'}
+[12.009009] (force_dimension) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/lib/python3.8/site-packages//force_dimension.egg-info/SOURCES.txt\n'}
+[12.009152] (force_dimension) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/lib/python3.8/site-packages//force_dimension.egg-info/PKG-INFO\n'}
+[12.009293] (force_dimension) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/lib/python3.8/site-packages/force_dimension\n'}
+[12.009441] (force_dimension) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/lib/python3.8/site-packages/force_dimension/__init__.py\n'}
+[12.043374] (-) TimerEvent: {}
+[12.051080] (force_dimension) StdoutLine: {'line': b"Listing '/home/agalvan-admin/ros2_ws/install/force_dimension/lib/python3.8/site-packages/force_dimension'...\n"}
+[12.051403] (force_dimension) StdoutLine: {'line': b"Compiling '/home/agalvan-admin/ros2_ws/install/force_dimension/lib/python3.8/site-packages/force_dimension/__init__.py'...\n"}
+[12.055257] (force_dimension) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/lib/force_dimension/run_example\n'}
+[12.055632] (force_dimension) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/ament_index/resource_index/package_run_dependencies/force_dimension\n'}
+[12.055937] (force_dimension) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/ament_index/resource_index/parent_prefix_path/force_dimension\n'}
+[12.056233] (force_dimension) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension/environment/ament_prefix_path.sh\n'}
+[12.056561] (force_dimension) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension/environment/ament_prefix_path.dsv\n'}
+[12.056810] (force_dimension) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension/environment/path.sh\n'}
+[12.057059] (force_dimension) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension/environment/path.dsv\n'}
+[12.057300] (force_dimension) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension/local_setup.bash\n'}
+[12.057540] (force_dimension) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension/local_setup.sh\n'}
+[12.057790] (force_dimension) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension/local_setup.zsh\n'}
+[12.058025] (force_dimension) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension/local_setup.dsv\n'}
+[12.058256] (force_dimension) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension/package.dsv\n'}
+[12.058588] (force_dimension) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/ament_index/resource_index/packages/force_dimension\n'}
+[12.058880] (force_dimension) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension/cmake/force_dimensionConfig.cmake\n'}
+[12.059104] (force_dimension) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension/cmake/force_dimensionConfig-version.cmake\n'}
+[12.059307] (force_dimension) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension/package.xml\n'}
+[12.063046] (force_dimension) CommandEnded: {'returncode': 0}
+[12.143544] (-) TimerEvent: {}
+[12.244529] (-) TimerEvent: {}
+[12.345379] (-) TimerEvent: {}
+[12.445857] (-) TimerEvent: {}
+[12.546569] (-) TimerEvent: {}
+[12.647704] (-) TimerEvent: {}
+[12.749878] (-) TimerEvent: {}
+[12.803925] (force_dimension) JobEnded: {'identifier': 'force_dimension', 'rc': 0}
+[12.805127] (-) EventReactorShutdown: {}

@@ -1,0 +1,43 @@
+[0.210s] Invoking command in '/home/agalvan-admin/ros2_ws/build/lambda_tm': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/agalvan-admin/ros2_ws/build/lambda_tm -- -j8 -l8
+[0.265s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.302s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.388s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.425s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.428s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.565s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.624s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.626s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.650s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.779s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.820s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.903s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.904s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.904s] -- Configured cppcheck include dirs: 
+[0.904s] -- Configured cppcheck exclude dirs and/or files: 
+[0.905s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.905s] -- Configured cpplint exclude dirs and/or files: 
+[0.906s] -- Added test 'lint_cmake' to check CMake code style
+[0.907s] -- Added test 'uncrustify' to check C / C++ code style
+[0.907s] -- Configured uncrustify additional arguments: 
+[0.908s] -- Added test 'xmllint' to check XML markup files
+[0.910s] -- Configuring done
+[0.921s] -- Generating done
+[0.922s] -- Build files have been written to: /home/agalvan-admin/ros2_ws/build/lambda_tm
+[0.985s] [35m[1mScanning dependencies of target lambda_force[0m
+[1.023s] [ 50%] Built target lambda_publisher
+[1.035s] [ 75%] [32mBuilding CXX object CMakeFiles/lambda_force.dir/src/lambda_force.cpp.o[0m
+[2.410s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:23:12:[m[K [01;31m[Kerror: [m[Knamespace ‘[01m[Kstd::literals::chrono_literals[m[K’ not allowed in using-declaration
+[2.410s]    23 | using std::[01;31m[Kchrono_literals[m[K;
+[2.410s]       |            [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.458s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:[m[K In constructor ‘[01m[KLambdaForce::LambdaForce()[m[K’:
+[2.458s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:32:42:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+[2.458s]    32 |         timer_ = this->create_wall_timer([01;31m[K100ms[m[K, std::bind(&LambdaForce::check_connection, this)); //TODO: update the time for updatesd for the timer
+[2.458s]       |                                          [01;31m[K^~~~~[m[K
+[2.670s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:[m[K In member function ‘[01m[Kvoid LambdaForce::force_activator(const Vector3&) const[m[K’:
+[2.670s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:38:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_message_time_[m[K’ was not declared in this scope
+[2.670s]    38 |         [01;31m[Klast_message_time_[m[K = this->now();
+[2.670s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.051s] make[2]: *** [CMakeFiles/lambda_force.dir/build.make:63: CMakeFiles/lambda_force.dir/src/lambda_force.cpp.o] Error 1
+[4.051s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/lambda_force.dir/all] Error 2
+[4.052s] make: *** [Makefile:141: all] Error 2
+[4.057s] Invoked command in '/home/agalvan-admin/ros2_ws/build/lambda_tm' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/agalvan-admin/ros2_ws/build/lambda_tm -- -j8 -l8

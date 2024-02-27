@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target lambda_force[0m
+[ 50%] Built target lambda_publisher
+[ 75%] [32mBuilding CXX object CMakeFiles/lambda_force.dir/src/lambda_force.cpp.o[0m
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:[m[K In member function ‘[01m[Kvoid LambdaForce::handle_disconnection()[m[K’:
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:60:13:[m[K [01;31m[Kerror: [m[K‘[01m[KdhdSEnableForce[m[K’ was not declared in this scope; did you mean ‘[01m[KdhdEnableForce[m[K’?
+   60 |         if ([01;31m[KdhdSEnableForce[m[K(DHD_OFF) < 0) {// Turns off Lambda.7 gravity compensation
+      |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |             [32m[KdhdEnableForce[m[K
+make[2]: *** [CMakeFiles/lambda_force.dir/build.make:63: CMakeFiles/lambda_force.dir/src/lambda_force.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/lambda_force.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

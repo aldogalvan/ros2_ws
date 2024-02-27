@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.000598] (lambda_tm) JobQueued: {'identifier': 'lambda_tm', 'dependencies': OrderedDict()}
+[0.000683] (lambda_tm) JobStarted: {'identifier': 'lambda_tm'}
+[0.099670] (-) TimerEvent: {}
+[0.200567] (-) TimerEvent: {}
+[0.260034] (lambda_tm) JobProgress: {'identifier': 'lambda_tm', 'progress': 'cmake'}
+[0.260767] (lambda_tm) JobProgress: {'identifier': 'lambda_tm', 'progress': 'build'}
+[0.261822] (lambda_tm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/agalvan-admin/ros2_ws/build/lambda_tm', '--', '-j8', '-l8'], 'cwd': '/home/agalvan-admin/ros2_ws/build/lambda_tm', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'agalvan-admin'), ('LIBIGL_ROOT', '/home/agalvan-admin/libigl'), ('SSH_AGENT_PID', '2678'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib::/home/agalvan-admin/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('HOME', '/home/agalvan-admin'), ('DESKTOP_SESSION', 'ubuntu'), ('OH_SDK_BASE', '/opt/OpenHaptics/Developer/3.4-0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2500'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/agalvan-admin/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'agalvan-admin'), ('JOURNAL_STREAM', '8:53225'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'agalvan-admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/cuda/bin:/home/agalvan-admin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin'), ('SESSION_MANAGER', 'local/ME-D15165.austin.utexas.edu:@/tmp/.ICE-unix/2750,unix/ME-D15165.austin.utexas.edu:/tmp/.ICE-unix/2750'), ('INVOCATION_ID', '0ddafcf102064bf49ace1b1e49034af8'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/65d96998_1bfa_4df5_9c63_572ed2fd794d'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('DISPLAY', ':1'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1002/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.429'), ('SSH_AUTH_SOCK', '/run/user/1002/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/agalvan-admin/ros2_ws/install/lambda_tm:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://ubuntu.ubuntu:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1002/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/agalvan-admin/ros2_ws/build/lambda_tm'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/agalvan-admin/ros2_ws/install/force_dimension/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('ROS_HOSTNAME', 'ubuntu.ubuntu'), ('COLCON', '1'), ('MANPATH', ':/opt/puppetlabs/puppet/share/man'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/agalvan-admin/ros2_ws/install/lambda_tm:/home/agalvan-admin/ros2_ws/install/force_dimension:/opt/ros/galactic')]), 'shell': False}
+[0.300823] (-) TimerEvent: {}
+[0.355040] (lambda_tm) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target lambda_force\x1b[0m\n'}
+[0.399120] (lambda_tm) StdoutLine: {'line': b'[ 50%] Built target lambda_publisher\n'}
+[0.400934] (-) TimerEvent: {}
+[0.404021] (lambda_tm) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/lambda_force.dir/src/lambda_force.cpp.o\x1b[0m\n'}
+[0.501149] (-) TimerEvent: {}
+[0.519420] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:112:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunterminated argument list invoking macro "RCLCPP_INFO"\n'}
+[0.519837] (lambda_tm) StderrLine: {'line': b'  112 | }\n'}
+[0.520028] (lambda_tm) StderrLine: {'line': b'      | \n'}
+[0.601342] (-) TimerEvent: {}
+[0.701859] (-) TimerEvent: {}
+[0.802377] (-) TimerEvent: {}
+[0.902828] (-) TimerEvent: {}
+[1.003350] (-) TimerEvent: {}
+[1.103892] (-) TimerEvent: {}
+[1.204415] (-) TimerEvent: {}
+[1.304886] (-) TimerEvent: {}
+[1.405426] (-) TimerEvent: {}
+[1.505999] (-) TimerEvent: {}
+[1.606578] (-) TimerEvent: {}
+[1.707100] (-) TimerEvent: {}
+[1.807673] (-) TimerEvent: {}
+[1.810249] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:64:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[1.810591] (lambda_tm) StderrLine: {'line': b'   64 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), b;\n'}
+[1.810779] (lambda_tm) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.810945] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:28:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.811107] (lambda_tm) StderrLine: {'line': b'   28 | \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[1.811260] (lambda_tm) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.814969] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KLambdaForce::LambdaForce()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.815267] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:32:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klambda_subscriber_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.815485] (lambda_tm) StderrLine: {'line': b'   32 |         \x1b[01;31m\x1b[Klambda_subscriber_\x1b[m\x1b[K = this->create_subscription<geometry_msgs::msg::Vector3>("sony_topic", 10, std::bind(&LambdaForce::force_activator, this, _1)); // TODO: change "lambda_force_subscriber" to name of topic & add geometry_msgs type between <>\n'}
+[1.815681] (lambda_tm) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.831420] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:33:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktimer_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktimer_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.831793] (lambda_tm) StderrLine: {'line': b'   33 |         \x1b[01;31m\x1b[Ktimer_\x1b[m\x1b[K = this->create_wall_timer(100ms, std::bind(&LambdaForce::check_connection, this)); //TODO: update the time for updatesd for the timer\n'}
+[1.831985] (lambda_tm) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.832148] (lambda_tm) StderrLine: {'line': b'      |         \x1b[32m\x1b[Ktimer_t\x1b[m\x1b[K\n'}
+[1.847883] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LambdaForce::check_connection()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.848316] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:53:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khandle_connection\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Khandle_disconnection\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.848505] (lambda_tm) StderrLine: {'line': b'   53 |             \x1b[01;31m\x1b[Khandle_connection\x1b[m\x1b[K();\n'}
+[1.848671] (lambda_tm) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.848829] (lambda_tm) StderrLine: {'line': b'      |             \x1b[32m\x1b[Khandle_disconnection\x1b[m\x1b[K\n'}
+[1.848983] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LambdaForce::handle_disconnection()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.849138] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:63:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid type argument of unary \xe2\x80\x98\x1b[01m\x1b[K*\x1b[m\x1b[K\xe2\x80\x99 (have \xe2\x80\x98\x1b[01m\x1b[Kuint\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[1.849298] (lambda_tm) StderrLine: {'line': b'   63 |         dhdGetVelocityThreshold(*\x1b[01;31m\x1b[Kb\x1b[m\x1b[K);\n'}
+[1.849448] (lambda_tm) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.850551] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:64:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.850728] (lambda_tm) StderrLine: {'line': b'   64 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), b;\n'}
+[1.850880] (lambda_tm) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.851031] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:64:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[1.851187] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:58:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.851339] (lambda_tm) StderrLine: {'line': b'   58 |     \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[1.851538] (lambda_tm) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.851700] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.851850] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:64:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id at end of input\n'}
+[1.852000] (lambda_tm) StderrLine: {'line': b'   64 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), b;\n'}
+[1.852148] (lambda_tm) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.907798] (-) TimerEvent: {}
+[2.008311] (-) TimerEvent: {}
+[2.108840] (-) TimerEvent: {}
+[2.209359] (-) TimerEvent: {}
+[2.309878] (-) TimerEvent: {}
+[2.410433] (-) TimerEvent: {}
+[2.511002] (-) TimerEvent: {}
+[2.611528] (-) TimerEvent: {}
+[2.712031] (-) TimerEvent: {}
+[2.812595] (-) TimerEvent: {}
+[2.913161] (-) TimerEvent: {}
+[3.013735] (-) TimerEvent: {}
+[3.114309] (-) TimerEvent: {}
+[3.214874] (-) TimerEvent: {}
+[3.315445] (-) TimerEvent: {}
+[3.391490] (lambda_tm) StderrLine: {'line': b'make[2]: *** [CMakeFiles/lambda_force.dir/build.make:63: CMakeFiles/lambda_force.dir/src/lambda_force.cpp.o] Error 1\n'}
+[3.392100] (lambda_tm) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/lambda_force.dir/all] Error 2\n'}
+[3.392824] (lambda_tm) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[3.397070] (lambda_tm) CommandEnded: {'returncode': 2}
+[3.415616] (-) TimerEvent: {}
+[3.516159] (-) TimerEvent: {}
+[3.616853] (-) TimerEvent: {}
+[3.717879] (-) TimerEvent: {}
+[3.771386] (lambda_tm) JobEnded: {'identifier': 'lambda_tm', 'rc': 2}
+[3.781789] (-) EventReactorShutdown: {}

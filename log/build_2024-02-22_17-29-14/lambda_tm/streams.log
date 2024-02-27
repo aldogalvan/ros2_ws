@@ -1,0 +1,30 @@
+[0.657s] Invoking command in '/home/agalvan-admin/ros2_ws/build/lambda_tm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/agalvan-admin/ros2_ws/build/lambda_tm -- -j8 -l8
+[0.752s] [35m[1mScanning dependencies of target lambda_force[0m
+[0.782s] [ 50%] Built target lambda_publisher
+[0.792s] [ 75%] [32mBuilding CXX object CMakeFiles/lambda_force.dir/src/lambda_force.cpp.o[0m
+[6.846s] [100%] [32m[1mLinking CXX executable lambda_force[0m
+[7.211s] [100%] Built target lambda_force
+[7.239s] Invoked command in '/home/agalvan-admin/ros2_ws/build/lambda_tm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/agalvan-admin/ros2_ws/build/lambda_tm -- -j8 -l8
+[7.365s] Invoking command in '/home/agalvan-admin/ros2_ws/build/lambda_tm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/agalvan-admin/ros2_ws/build/lambda_tm
+[7.375s] -- Install configuration: ""
+[7.375s] -- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/lib/lambda_tm/lambda_publisher
+[7.375s] -- Installing: /home/agalvan-admin/ros2_ws/install/lambda_tm/lib/lambda_tm/lambda_force
+[7.379s] -- Set runtime path of "/home/agalvan-admin/ros2_ws/install/lambda_tm/lib/lambda_tm/lambda_force" to ""
+[7.379s] -- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm//launch
+[7.379s] -- Installing: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm//launch/lambda_tm.launch.xml
+[7.379s] -- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/ament_index/resource_index/package_run_dependencies/lambda_tm
+[7.380s] -- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/ament_index/resource_index/parent_prefix_path/lambda_tm
+[7.380s] -- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/environment/ament_prefix_path.sh
+[7.380s] -- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/environment/ament_prefix_path.dsv
+[7.380s] -- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/environment/path.sh
+[7.381s] -- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/environment/path.dsv
+[7.382s] -- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/local_setup.bash
+[7.383s] -- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/local_setup.sh
+[7.383s] -- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/local_setup.zsh
+[7.383s] -- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/local_setup.dsv
+[7.383s] -- Installing: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/package.dsv
+[7.383s] -- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/ament_index/resource_index/packages/lambda_tm
+[7.383s] -- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/cmake/lambda_tmConfig.cmake
+[7.384s] -- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/cmake/lambda_tmConfig-version.cmake
+[7.384s] -- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/package.xml
+[7.384s] Invoked command in '/home/agalvan-admin/ros2_ws/build/lambda_tm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/agalvan-admin/ros2_ws/build/lambda_tm

@@ -1,0 +1,43 @@
+[0.636s] Invoking command in '/home/agalvan-admin/ros2_ws/build/lambda_tm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/agalvan-admin/ros2_ws/build/lambda_tm -- -j8 -l8
+[0.733s] [35m[1mScanning dependencies of target lambda_force[0m
+[0.769s] [ 50%] Built target lambda_publisher
+[0.793s] [ 75%] [32mBuilding CXX object CMakeFiles/lambda_force.dir/src/lambda_force.cpp.o[0m
+[4.392s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:[m[K In member function ‘[01m[Kvoid LambdaForce::handle_disconnection()[m[K’:
+[4.393s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:64:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Kfx[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[4.393s]    64 |     if([01;35m[KdhdSetForceAndTorqueAndGripperForce(fx, fy, fz, tx, ty, tz, fg)[m[K == 0) {
+[4.393s]       |        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.393s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:64:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Kfy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[4.393s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:64:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Kfz[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[4.393s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:64:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktx[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[4.394s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:64:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Kty[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[4.394s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:64:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktz[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[4.394s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:71:54:[m[K [01;35m[Kwarning: [m[K‘[01m[Kt0[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[4.394s]    71 |     if([01;35m[KdhdSetForceAndWristJointTorquesAndGripperForce(fx, fy, fz, t0, t1, t2, fg)[m[K == 0) {
+[4.394s]       |        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.394s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:71:54:[m[K [01;35m[Kwarning: [m[K‘[01m[Kt1[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[7.022s] [100%] [32m[1mLinking CXX executable lambda_force[0m
+[7.372s] [100%] Built target lambda_force
+[7.389s] Invoked command in '/home/agalvan-admin/ros2_ws/build/lambda_tm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/agalvan-admin/ros2_ws/build/lambda_tm -- -j8 -l8
+[7.486s] Invoking command in '/home/agalvan-admin/ros2_ws/build/lambda_tm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/agalvan-admin/ros2_ws/build/lambda_tm
+[7.498s] -- Install configuration: ""
+[7.498s] -- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/lib/lambda_tm/lambda_publisher
+[7.498s] -- Installing: /home/agalvan-admin/ros2_ws/install/lambda_tm/lib/lambda_tm/lambda_force
+[7.503s] -- Set runtime path of "/home/agalvan-admin/ros2_ws/install/lambda_tm/lib/lambda_tm/lambda_force" to ""
+[7.503s] -- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm//launch
+[7.503s] -- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm//launch/lambda_tm.launch.xml
+[7.503s] -- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/ament_index/resource_index/package_run_dependencies/lambda_tm
+[7.503s] -- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/ament_index/resource_index/parent_prefix_path/lambda_tm
+[7.504s] -- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/environment/ament_prefix_path.sh
+[7.504s] -- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/environment/ament_prefix_path.dsv
+[7.504s] -- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/environment/path.sh
+[7.505s] -- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/environment/path.dsv
+[7.505s] -- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/local_setup.bash
+[7.506s] -- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/local_setup.sh
+[7.506s] -- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/local_setup.zsh
+[7.506s] -- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/local_setup.dsv
+[7.507s] -- Installing: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/package.dsv
+[7.507s] -- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/ament_index/resource_index/packages/lambda_tm
+[7.507s] -- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/cmake/lambda_tmConfig.cmake
+[7.507s] -- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/cmake/lambda_tmConfig-version.cmake
+[7.507s] -- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/package.xml
+[7.508s] Invoked command in '/home/agalvan-admin/ros2_ws/build/lambda_tm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/agalvan-admin/ros2_ws/build/lambda_tm

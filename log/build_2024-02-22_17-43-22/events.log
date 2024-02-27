@@ -1,0 +1,126 @@
+[0.000000] (-) TimerEvent: {}
+[0.000643] (lambda_tm) JobQueued: {'identifier': 'lambda_tm', 'dependencies': OrderedDict()}
+[0.000842] (lambda_tm) JobStarted: {'identifier': 'lambda_tm'}
+[0.099957] (-) TimerEvent: {}
+[0.201517] (-) TimerEvent: {}
+[0.303603] (-) TimerEvent: {}
+[0.405486] (-) TimerEvent: {}
+[0.507439] (-) TimerEvent: {}
+[0.608470] (-) TimerEvent: {}
+[0.643235] (lambda_tm) JobProgress: {'identifier': 'lambda_tm', 'progress': 'cmake'}
+[0.643925] (lambda_tm) JobProgress: {'identifier': 'lambda_tm', 'progress': 'build'}
+[0.644678] (lambda_tm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/agalvan-admin/ros2_ws/build/lambda_tm', '--', '-j8', '-l8'], 'cwd': '/home/agalvan-admin/ros2_ws/build/lambda_tm', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'agalvan-admin'), ('LIBIGL_ROOT', '/home/agalvan-admin/libigl'), ('SSH_AGENT_PID', '3049'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib::/home/agalvan-admin/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('HOME', '/home/agalvan-admin'), ('OLDPWD', '/home/agalvan-admin/sdk-3.15.0/bin'), ('DESKTOP_SESSION', 'ubuntu'), ('OH_SDK_BASE', '/opt/OpenHaptics/Developer/3.4-0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2874'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/agalvan-admin/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'agalvan-admin'), ('JOURNAL_STREAM', '8:55236'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'agalvan-admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/cuda/bin:/home/agalvan-admin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin'), ('SESSION_MANAGER', 'local/ME-D15165.austin.utexas.edu:@/tmp/.ICE-unix/3121,unix/ME-D15165.austin.utexas.edu:/tmp/.ICE-unix/3121'), ('INVOCATION_ID', 'cc2306c196a94c169fdb6993800d4b00'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ce1fb21b_4336_42f6_9382_243d688527b0'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('DISPLAY', ':1'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1002/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.88'), ('SSH_AUTH_SOCK', '/run/user/1002/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/agalvan-admin/ros2_ws/install/lambda_tm:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://ubuntu.ubuntu:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1002/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/agalvan-admin/ros2_ws/build/lambda_tm'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/agalvan-admin/ros2_ws/install/force_dimension/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('ROS_HOSTNAME', 'ubuntu.ubuntu'), ('COLCON', '1'), ('MANPATH', ':/opt/puppetlabs/puppet/share/man'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/agalvan-admin/ros2_ws/install/lambda_tm:/home/agalvan-admin/ros2_ws/install/force_dimension:/opt/ros/galactic')]), 'shell': False}
+[0.708713] (-) TimerEvent: {}
+[0.744630] (lambda_tm) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target lambda_force\x1b[0m\n'}
+[0.772213] (lambda_tm) StdoutLine: {'line': b'[ 50%] Built target lambda_publisher\n'}
+[0.788094] (lambda_tm) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/lambda_force.dir/src/lambda_force.cpp.o\x1b[0m\n'}
+[0.808815] (-) TimerEvent: {}
+[0.909245] (-) TimerEvent: {}
+[1.009773] (-) TimerEvent: {}
+[1.110255] (-) TimerEvent: {}
+[1.210709] (-) TimerEvent: {}
+[1.311255] (-) TimerEvent: {}
+[1.411780] (-) TimerEvent: {}
+[1.512326] (-) TimerEvent: {}
+[1.612883] (-) TimerEvent: {}
+[1.713433] (-) TimerEvent: {}
+[1.813914] (-) TimerEvent: {}
+[1.914500] (-) TimerEvent: {}
+[2.014986] (-) TimerEvent: {}
+[2.115454] (-) TimerEvent: {}
+[2.215907] (-) TimerEvent: {}
+[2.316425] (-) TimerEvent: {}
+[2.416864] (-) TimerEvent: {}
+[2.431915] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LambdaForce::handle_disconnection()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.432343] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:62:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kb\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[2.432542] (lambda_tm) StderrLine: {'line': b'   62 |         uint \x1b[01;35m\x1b[Kb\x1b[m\x1b[K;\n'}
+[2.432706] (lambda_tm) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.517066] (-) TimerEvent: {}
+[2.617522] (-) TimerEvent: {}
+[2.718062] (-) TimerEvent: {}
+[2.818520] (-) TimerEvent: {}
+[2.918981] (-) TimerEvent: {}
+[3.019430] (-) TimerEvent: {}
+[3.119875] (-) TimerEvent: {}
+[3.220300] (-) TimerEvent: {}
+[3.320694] (-) TimerEvent: {}
+[3.421211] (-) TimerEvent: {}
+[3.521760] (-) TimerEvent: {}
+[3.622242] (-) TimerEvent: {}
+[3.722703] (-) TimerEvent: {}
+[3.823156] (-) TimerEvent: {}
+[3.923684] (-) TimerEvent: {}
+[4.024211] (-) TimerEvent: {}
+[4.124775] (-) TimerEvent: {}
+[4.225265] (-) TimerEvent: {}
+[4.325807] (-) TimerEvent: {}
+[4.426318] (-) TimerEvent: {}
+[4.526799] (-) TimerEvent: {}
+[4.627267] (-) TimerEvent: {}
+[4.727802] (-) TimerEvent: {}
+[4.828275] (-) TimerEvent: {}
+[4.928775] (-) TimerEvent: {}
+[5.029284] (-) TimerEvent: {}
+[5.129789] (-) TimerEvent: {}
+[5.230247] (-) TimerEvent: {}
+[5.330692] (-) TimerEvent: {}
+[5.431134] (-) TimerEvent: {}
+[5.531591] (-) TimerEvent: {}
+[5.632112] (-) TimerEvent: {}
+[5.732660] (-) TimerEvent: {}
+[5.833115] (-) TimerEvent: {}
+[5.933576] (-) TimerEvent: {}
+[6.034094] (-) TimerEvent: {}
+[6.134556] (-) TimerEvent: {}
+[6.235004] (-) TimerEvent: {}
+[6.335448] (-) TimerEvent: {}
+[6.436006] (-) TimerEvent: {}
+[6.536522] (-) TimerEvent: {}
+[6.637053] (-) TimerEvent: {}
+[6.737585] (-) TimerEvent: {}
+[6.801840] (lambda_tm) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lambda_force\x1b[0m\n'}
+[6.837786] (-) TimerEvent: {}
+[6.938269] (-) TimerEvent: {}
+[7.038719] (-) TimerEvent: {}
+[7.139188] (-) TimerEvent: {}
+[7.145764] (lambda_tm) StdoutLine: {'line': b'[100%] Built target lambda_force\n'}
+[7.173026] (lambda_tm) CommandEnded: {'returncode': 0}
+[7.239351] (-) TimerEvent: {}
+[7.242100] (lambda_tm) JobProgress: {'identifier': 'lambda_tm', 'progress': 'install'}
+[7.266615] (lambda_tm) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/agalvan-admin/ros2_ws/build/lambda_tm'], 'cwd': '/home/agalvan-admin/ros2_ws/build/lambda_tm', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'agalvan-admin'), ('LIBIGL_ROOT', '/home/agalvan-admin/libigl'), ('SSH_AGENT_PID', '3049'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib::/home/agalvan-admin/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('HOME', '/home/agalvan-admin'), ('OLDPWD', '/home/agalvan-admin/sdk-3.15.0/bin'), ('DESKTOP_SESSION', 'ubuntu'), ('OH_SDK_BASE', '/opt/OpenHaptics/Developer/3.4-0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2874'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/agalvan-admin/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'agalvan-admin'), ('JOURNAL_STREAM', '8:55236'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'agalvan-admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/cuda/bin:/home/agalvan-admin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin'), ('SESSION_MANAGER', 'local/ME-D15165.austin.utexas.edu:@/tmp/.ICE-unix/3121,unix/ME-D15165.austin.utexas.edu:/tmp/.ICE-unix/3121'), ('INVOCATION_ID', 'cc2306c196a94c169fdb6993800d4b00'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ce1fb21b_4336_42f6_9382_243d688527b0'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('DISPLAY', ':1'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1002/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.88'), ('SSH_AUTH_SOCK', '/run/user/1002/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/agalvan-admin/ros2_ws/install/lambda_tm:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://ubuntu.ubuntu:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1002/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/agalvan-admin/ros2_ws/build/lambda_tm'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/agalvan-admin/ros2_ws/install/force_dimension/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('ROS_HOSTNAME', 'ubuntu.ubuntu'), ('COLCON', '1'), ('MANPATH', ':/opt/puppetlabs/puppet/share/man'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/agalvan-admin/ros2_ws/install/lambda_tm:/home/agalvan-admin/ros2_ws/install/force_dimension:/opt/ros/galactic')]), 'shell': False}
+[7.289173] (lambda_tm) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.289592] (lambda_tm) StdoutLine: {'line': b'-- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/lib/lambda_tm/lambda_publisher\n'}
+[7.289846] (lambda_tm) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/lambda_tm/lib/lambda_tm/lambda_force\n'}
+[7.295073] (lambda_tm) StdoutLine: {'line': b'-- Set runtime path of "/home/agalvan-admin/ros2_ws/install/lambda_tm/lib/lambda_tm/lambda_force" to ""\n'}
+[7.295444] (lambda_tm) StdoutLine: {'line': b'-- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm//launch\n'}
+[7.295715] (lambda_tm) StdoutLine: {'line': b'-- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm//launch/lambda_tm.launch.xml\n'}
+[7.295916] (lambda_tm) StdoutLine: {'line': b'-- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/ament_index/resource_index/package_run_dependencies/lambda_tm\n'}
+[7.296170] (lambda_tm) StdoutLine: {'line': b'-- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/ament_index/resource_index/parent_prefix_path/lambda_tm\n'}
+[7.296343] (lambda_tm) StdoutLine: {'line': b'-- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/environment/ament_prefix_path.sh\n'}
+[7.296516] (lambda_tm) StdoutLine: {'line': b'-- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/environment/ament_prefix_path.dsv\n'}
+[7.296674] (lambda_tm) StdoutLine: {'line': b'-- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/environment/path.sh\n'}
+[7.296829] (lambda_tm) StdoutLine: {'line': b'-- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/environment/path.dsv\n'}
+[7.296983] (lambda_tm) StdoutLine: {'line': b'-- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/local_setup.bash\n'}
+[7.297139] (lambda_tm) StdoutLine: {'line': b'-- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/local_setup.sh\n'}
+[7.297362] (lambda_tm) StdoutLine: {'line': b'-- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/local_setup.zsh\n'}
+[7.298507] (lambda_tm) StdoutLine: {'line': b'-- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/local_setup.dsv\n'}
+[7.298715] (lambda_tm) StdoutLine: {'line': b'-- Installing: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/package.dsv\n'}
+[7.298939] (lambda_tm) StdoutLine: {'line': b'-- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/ament_index/resource_index/packages/lambda_tm\n'}
+[7.299203] (lambda_tm) StdoutLine: {'line': b'-- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/cmake/lambda_tmConfig.cmake\n'}
+[7.299464] (lambda_tm) StdoutLine: {'line': b'-- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/cmake/lambda_tmConfig-version.cmake\n'}
+[7.299706] (lambda_tm) StdoutLine: {'line': b'-- Up-to-date: /home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/package.xml\n'}
+[7.299865] (lambda_tm) CommandEnded: {'returncode': 0}
+[7.339695] (-) TimerEvent: {}
+[7.441425] (-) TimerEvent: {}
+[7.543136] (-) TimerEvent: {}
+[7.645456] (-) TimerEvent: {}
+[7.746881] (-) TimerEvent: {}
+[7.847838] (-) TimerEvent: {}
+[7.949001] (-) TimerEvent: {}
+[8.049933] (-) TimerEvent: {}
+[8.151116] (-) TimerEvent: {}
+[8.253350] (-) TimerEvent: {}
+[8.354990] (-) TimerEvent: {}
+[8.456506] (-) TimerEvent: {}
+[8.517311] (lambda_tm) JobEnded: {'identifier': 'lambda_tm', 'rc': 0}
+[8.518527] (-) EventReactorShutdown: {}

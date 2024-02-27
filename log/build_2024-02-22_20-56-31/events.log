@@ -1,0 +1,134 @@
+[0.000000] (-) TimerEvent: {}
+[0.000611] (lambda_tm) JobQueued: {'identifier': 'lambda_tm', 'dependencies': OrderedDict()}
+[0.000803] (lambda_tm) JobStarted: {'identifier': 'lambda_tm'}
+[0.099691] (-) TimerEvent: {}
+[0.200515] (-) TimerEvent: {}
+[0.301772] (-) TimerEvent: {}
+[0.404208] (-) TimerEvent: {}
+[0.504569] (-) TimerEvent: {}
+[0.605387] (-) TimerEvent: {}
+[0.706414] (-) TimerEvent: {}
+[0.713678] (lambda_tm) JobProgress: {'identifier': 'lambda_tm', 'progress': 'cmake'}
+[0.714357] (lambda_tm) JobProgress: {'identifier': 'lambda_tm', 'progress': 'build'}
+[0.715339] (lambda_tm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/agalvan-admin/ros2_ws/build/lambda_tm', '--', '-j8', '-l8'], 'cwd': '/home/agalvan-admin/ros2_ws/build/lambda_tm', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'agalvan-admin'), ('LIBIGL_ROOT', '/home/agalvan-admin/libigl'), ('SSH_AGENT_PID', '3049'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib::/home/agalvan-admin/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('HOME', '/home/agalvan-admin'), ('OLDPWD', '/home/agalvan-admin/sdk-3.15.0/bin'), ('DESKTOP_SESSION', 'ubuntu'), ('OH_SDK_BASE', '/opt/OpenHaptics/Developer/3.4-0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2874'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/agalvan-admin/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'agalvan-admin'), ('JOURNAL_STREAM', '8:55236'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'agalvan-admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/cuda/bin:/home/agalvan-admin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin'), ('SESSION_MANAGER', 'local/ME-D15165.austin.utexas.edu:@/tmp/.ICE-unix/3121,unix/ME-D15165.austin.utexas.edu:/tmp/.ICE-unix/3121'), ('INVOCATION_ID', 'cc2306c196a94c169fdb6993800d4b00'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ce1fb21b_4336_42f6_9382_243d688527b0'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('DISPLAY', ':1'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1002/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.88'), ('SSH_AUTH_SOCK', '/run/user/1002/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/agalvan-admin/ros2_ws/install/lambda_tm:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://ubuntu.ubuntu:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1002/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/agalvan-admin/ros2_ws/build/lambda_tm'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/agalvan-admin/ros2_ws/install/force_dimension/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('ROS_HOSTNAME', 'ubuntu.ubuntu'), ('COLCON', '1'), ('MANPATH', ':/opt/puppetlabs/puppet/share/man'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/agalvan-admin/ros2_ws/install/lambda_tm:/home/agalvan-admin/ros2_ws/install/force_dimension:/opt/ros/galactic')]), 'shell': False}
+[0.777238] (lambda_tm) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.806485] (-) TimerEvent: {}
+[0.817630] (lambda_tm) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.906653] (-) TimerEvent: {}
+[0.916371] (lambda_tm) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[0.958372] (lambda_tm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.963047] (lambda_tm) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[1.006741] (-) TimerEvent: {}
+[1.106235] (lambda_tm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.106820] (-) TimerEvent: {}
+[1.161792] (lambda_tm) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[1.163891] (lambda_tm) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.182644] (lambda_tm) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.206898] (-) TimerEvent: {}
+[1.307159] (-) TimerEvent: {}
+[1.324338] (lambda_tm) StdoutLine: {'line': b'-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)\n'}
+[1.370864] (lambda_tm) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[1.407347] (-) TimerEvent: {}
+[1.448316] (lambda_tm) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.449316] (lambda_tm) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.449789] (lambda_tm) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/agalvan-admin/ros2_ws/src/lambda_tm/include\n'}
+[1.449917] (lambda_tm) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.450696] (lambda_tm) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.450832] (lambda_tm) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.451597] (lambda_tm) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.452721] (lambda_tm) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.452881] (lambda_tm) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.453281] (lambda_tm) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.455579] (lambda_tm) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.465796] (lambda_tm) StdoutLine: {'line': b'-- Generating done\n'}
+[1.467178] (lambda_tm) StdoutLine: {'line': b'-- Build files have been written to: /home/agalvan-admin/ros2_ws/build/lambda_tm\n'}
+[1.507476] (-) TimerEvent: {}
+[1.514100] (lambda_tm) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target lambda_force\x1b[0m\n'}
+[1.521243] (lambda_tm) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target lambda_publisher\x1b[0m\n'}
+[1.559841] (lambda_tm) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/lambda_force.dir/src/lambda_force.cpp.o\x1b[0m\n'}
+[1.564353] (lambda_tm) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/lambda_publisher.dir/src/lambda_publisher.cpp.o\x1b[0m\n'}
+[1.607608] (-) TimerEvent: {}
+[1.681679] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KEigen3/Geometry: No such file or directory\n'}
+[1.682103] (lambda_tm) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"Eigen3/Geometry"\x1b[m\x1b[K\n'}
+[1.682289] (lambda_tm) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.682455] (lambda_tm) StderrLine: {'line': b'compilation terminated.\n'}
+[1.685030] (lambda_tm) StderrLine: {'line': b'make[2]: *** [CMakeFiles/lambda_publisher.dir/build.make:63: CMakeFiles/lambda_publisher.dir/src/lambda_publisher.cpp.o] Error 1\n'}
+[1.685448] (lambda_tm) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/lambda_publisher.dir/all] Error 2\n'}
+[1.685620] (lambda_tm) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[1.707728] (-) TimerEvent: {}
+[1.808239] (-) TimerEvent: {}
+[1.908692] (-) TimerEvent: {}
+[2.009136] (-) TimerEvent: {}
+[2.109656] (-) TimerEvent: {}
+[2.210172] (-) TimerEvent: {}
+[2.310708] (-) TimerEvent: {}
+[2.411265] (-) TimerEvent: {}
+[2.511721] (-) TimerEvent: {}
+[2.612219] (-) TimerEvent: {}
+[2.712690] (-) TimerEvent: {}
+[2.813230] (-) TimerEvent: {}
+[2.913812] (-) TimerEvent: {}
+[3.014286] (-) TimerEvent: {}
+[3.114816] (-) TimerEvent: {}
+[3.215306] (-) TimerEvent: {}
+[3.315835] (-) TimerEvent: {}
+[3.416294] (-) TimerEvent: {}
+[3.516820] (-) TimerEvent: {}
+[3.617354] (-) TimerEvent: {}
+[3.717846] (-) TimerEvent: {}
+[3.818378] (-) TimerEvent: {}
+[3.918855] (-) TimerEvent: {}
+[4.019321] (-) TimerEvent: {}
+[4.119786] (-) TimerEvent: {}
+[4.220259] (-) TimerEvent: {}
+[4.320796] (-) TimerEvent: {}
+[4.421328] (-) TimerEvent: {}
+[4.521796] (-) TimerEvent: {}
+[4.622269] (-) TimerEvent: {}
+[4.722753] (-) TimerEvent: {}
+[4.823303] (-) TimerEvent: {}
+[4.923767] (-) TimerEvent: {}
+[5.024221] (-) TimerEvent: {}
+[5.124756] (-) TimerEvent: {}
+[5.225313] (-) TimerEvent: {}
+[5.325857] (-) TimerEvent: {}
+[5.426369] (-) TimerEvent: {}
+[5.526913] (-) TimerEvent: {}
+[5.627445] (-) TimerEvent: {}
+[5.728062] (-) TimerEvent: {}
+[5.828562] (-) TimerEvent: {}
+[5.929075] (-) TimerEvent: {}
+[6.029582] (-) TimerEvent: {}
+[6.130101] (-) TimerEvent: {}
+[6.230610] (-) TimerEvent: {}
+[6.331129] (-) TimerEvent: {}
+[6.431656] (-) TimerEvent: {}
+[6.532172] (-) TimerEvent: {}
+[6.632685] (-) TimerEvent: {}
+[6.733203] (-) TimerEvent: {}
+[6.833714] (-) TimerEvent: {}
+[6.934257] (-) TimerEvent: {}
+[7.034712] (-) TimerEvent: {}
+[7.135175] (-) TimerEvent: {}
+[7.235651] (-) TimerEvent: {}
+[7.336100] (-) TimerEvent: {}
+[7.436446] (-) TimerEvent: {}
+[7.536807] (-) TimerEvent: {}
+[7.637153] (-) TimerEvent: {}
+[7.682019] (lambda_tm) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable lambda_force\x1b[0m\n'}
+[7.737286] (-) TimerEvent: {}
+[7.837670] (-) TimerEvent: {}
+[7.938040] (-) TimerEvent: {}
+[8.035084] (lambda_tm) StdoutLine: {'line': b'[ 75%] Built target lambda_force\n'}
+[8.037101] (lambda_tm) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[8.038098] (-) TimerEvent: {}
+[8.039680] (lambda_tm) CommandEnded: {'returncode': 2}
+[8.138372] (-) TimerEvent: {}
+[8.239389] (-) TimerEvent: {}
+[8.341061] (-) TimerEvent: {}
+[8.441934] (-) TimerEvent: {}
+[8.542801] (-) TimerEvent: {}
+[8.644905] (-) TimerEvent: {}
+[8.746936] (-) TimerEvent: {}
+[8.750854] (lambda_tm) JobEnded: {'identifier': 'lambda_tm', 'rc': 2}
+[8.761221] (-) EventReactorShutdown: {}

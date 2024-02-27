@@ -1,0 +1,10 @@
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:[m[K In member function ‘[01m[Kvoid LambdaForce::handle_disconnection()[m[K’:
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:79:48:[m[K [01;35m[Kwarning: [m[K‘[01m[Kfx[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+   79 |         if ([01;35m[KdhdSetForceAndTorqueAndGripperForce(fx, fy, fz, tx, ty, tz, f)[m[K == 0) {
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:79:48:[m[K [01;35m[Kwarning: [m[K‘[01m[Kfy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:79:48:[m[K [01;35m[Kwarning: [m[K‘[01m[Kfz[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:79:48:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktx[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:79:48:[m[K [01;35m[Kwarning: [m[K‘[01m[Kty[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:79:48:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktz[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:79:48:[m[K [01;35m[Kwarning: [m[K‘[01m[Kf[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]

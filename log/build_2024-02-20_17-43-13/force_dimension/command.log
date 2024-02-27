@@ -1,0 +1,2 @@
+Invoking command in '/home/agalvan-admin/ros2_ws/build/force_dimension': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/agalvan-admin/ros2_ws/src/force_dimension -DCMAKE_INSTALL_PREFIX=/home/agalvan-admin/ros2_ws/install/force_dimension
+Invoked command in '/home/agalvan-admin/ros2_ws/build/force_dimension' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/agalvan-admin/ros2_ws/src/force_dimension -DCMAKE_INSTALL_PREFIX=/home/agalvan-admin/ros2_ws/install/force_dimension

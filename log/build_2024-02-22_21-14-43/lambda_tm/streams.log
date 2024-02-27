@@ -1,0 +1,18 @@
+[0.629s] Invoking command in '/home/agalvan-admin/ros2_ws/build/lambda_tm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/agalvan-admin/ros2_ws/build/lambda_tm -- -j8 -l8
+[0.719s] [35m[1mScanning dependencies of target lambda_publisher[0m
+[0.747s] [ 50%] Built target lambda_force
+[0.770s] [ 75%] [32mBuilding CXX object CMakeFiles/lambda_publisher.dir/src/lambda_publisher.cpp.o[0m
+[2.759s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:[m[K In member function ‘[01m[Kvoid LambdaPublisher::publishPoseMessage()[m[K’:
+[2.759s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:47:56:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kdouble (*)[3][m[K’ to ‘[01m[Kdouble*[m[K’
+[2.759s]    47 |         dhdGetPositionAndOrientationRad(&px, &py, &pz, [01;31m[Kmatrix[m[K);
+[2.759s]       |                                                        [01;31m[K^~~~~~[m[K
+[2.759s]       |                                                        [01;31m[K|[m[K
+[2.759s]       |                                                        [01;31m[Kdouble (*)[3][m[K
+[2.759s] In file included from [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:23[m[K:
+[2.760s] [01m[K/home/agalvan-admin/sdk-3.15.0/include/dhdc.h:255:113:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kint dhdGetPositionAndOrientationRad(double*, double*, double*, double*, double*, double*, char)[m[K’
+[2.760s]   255 |   int         __SDK dhdGetPositionAndOrientationRad                (double *px, double *py, double *pz, [01;36m[Kdouble *oa[m[K, double *ob, double *og, char ID = -1);
+[2.760s]       |                                                                                                         [01;36m[K~~~~~~~~^~[m[K
+[3.614s] make[2]: *** [CMakeFiles/lambda_publisher.dir/build.make:63: CMakeFiles/lambda_publisher.dir/src/lambda_publisher.cpp.o] Error 1
+[3.614s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/lambda_publisher.dir/all] Error 2
+[3.615s] make: *** [Makefile:141: all] Error 2
+[3.617s] Invoked command in '/home/agalvan-admin/ros2_ws/build/lambda_tm' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/agalvan-admin/ros2_ws/build/lambda_tm -- -j8 -l8

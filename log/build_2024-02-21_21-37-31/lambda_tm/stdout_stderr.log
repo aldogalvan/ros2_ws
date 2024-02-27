@@ -1,0 +1,43 @@
+[35m[1mScanning dependencies of target lambda_force[0m
+[ 50%] Built target lambda_publisher
+[ 75%] [32mBuilding CXX object CMakeFiles/lambda_force.dir/src/lambda_force.cpp.o[0m
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:112:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+  112 | }
+      | 
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:64:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   64 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), b;
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:28:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   28 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:[m[K In constructor ‘[01m[KLambdaForce::LambdaForce()[m[K’:
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:32:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klambda_subscriber_[m[K’ was not declared in this scope
+   32 |         [01;31m[Klambda_subscriber_[m[K = this->create_subscription<geometry_msgs::msg::Vector3>("sony_topic", 10, std::bind(&LambdaForce::force_activator, this, _1)); // TODO: change "lambda_force_subscriber" to name of topic & add geometry_msgs type between <>
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:33:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   33 |         [01;31m[Ktimer_[m[K = this->create_wall_timer(100ms, std::bind(&LambdaForce::check_connection, this)); //TODO: update the time for updatesd for the timer
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Ktimer_t[m[K
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:[m[K In member function ‘[01m[Kvoid LambdaForce::check_connection()[m[K’:
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:53:13:[m[K [01;31m[Kerror: [m[K‘[01m[Khandle_connection[m[K’ was not declared in this scope; did you mean ‘[01m[Khandle_disconnection[m[K’?
+   53 |             [01;31m[Khandle_connection[m[K();
+      |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |             [32m[Khandle_disconnection[m[K
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:[m[K In member function ‘[01m[Kvoid LambdaForce::handle_disconnection()[m[K’:
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:63:34:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kuint[m[K’ {aka ‘[01m[Kunsigned int[m[K’})
+   63 |         dhdGetVelocityThreshold(*[01;31m[Kb[m[K);
+      |                                  [01;31m[K^[m[K
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:64:9:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+   64 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), b;
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:64:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:58:5:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   58 |     [01;36m[K{[m[K
+      |     [01;36m[K^[m[K
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:[m[K At global scope:
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:64:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+   64 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), b;
+      |         [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/lambda_force.dir/build.make:63: CMakeFiles/lambda_force.dir/src/lambda_force.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/lambda_force.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

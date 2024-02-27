@@ -1,0 +1,12 @@
+[0.621s] Invoking command in '/home/agalvan-admin/ros2_ws/build/lambda_tm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/agalvan-admin/ros2_ws/build/lambda_tm -- -j8 -l8
+[0.717s] [35m[1mScanning dependencies of target lambda_force[0m
+[0.746s] [ 50%] Built target lambda_publisher
+[0.773s] [ 75%] [32mBuilding CXX object CMakeFiles/lambda_force.dir/src/lambda_force.cpp.o[0m
+[2.529s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:[m[K In member function ‘[01m[Kvoid LambdaForce::handle_disconnection()[m[K’:
+[2.529s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:63:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kb[m[K’ was not declared in this scope
+[2.529s]    63 |         if(dhdGetVelocityThreshold(&[01;31m[Kb[m[K) == 0) {
+[2.529s]       |                                     [01;31m[K^[m[K
+[3.879s] make[2]: *** [CMakeFiles/lambda_force.dir/build.make:63: CMakeFiles/lambda_force.dir/src/lambda_force.cpp.o] Error 1
+[3.879s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/lambda_force.dir/all] Error 2
+[3.880s] make: *** [Makefile:141: all] Error 2
+[3.884s] Invoked command in '/home/agalvan-admin/ros2_ws/build/lambda_tm' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/agalvan-admin/ros2_ws/build/lambda_tm -- -j8 -l8

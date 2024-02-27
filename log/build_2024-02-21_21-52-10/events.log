@@ -1,0 +1,219 @@
+[0.000000] (-) TimerEvent: {}
+[0.000598] (lambda_tm) JobQueued: {'identifier': 'lambda_tm', 'dependencies': OrderedDict()}
+[0.000681] (lambda_tm) JobStarted: {'identifier': 'lambda_tm'}
+[0.099912] (-) TimerEvent: {}
+[0.201157] (-) TimerEvent: {}
+[0.257983] (lambda_tm) JobProgress: {'identifier': 'lambda_tm', 'progress': 'cmake'}
+[0.258726] (lambda_tm) JobProgress: {'identifier': 'lambda_tm', 'progress': 'build'}
+[0.259610] (lambda_tm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/agalvan-admin/ros2_ws/build/lambda_tm', '--', '-j8', '-l8'], 'cwd': '/home/agalvan-admin/ros2_ws/build/lambda_tm', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'agalvan-admin'), ('LIBIGL_ROOT', '/home/agalvan-admin/libigl'), ('SSH_AGENT_PID', '2678'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib::/home/agalvan-admin/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('HOME', '/home/agalvan-admin'), ('DESKTOP_SESSION', 'ubuntu'), ('OH_SDK_BASE', '/opt/OpenHaptics/Developer/3.4-0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2500'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/agalvan-admin/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'agalvan-admin'), ('JOURNAL_STREAM', '8:53225'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'agalvan-admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/cuda/bin:/home/agalvan-admin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin'), ('SESSION_MANAGER', 'local/ME-D15165.austin.utexas.edu:@/tmp/.ICE-unix/2750,unix/ME-D15165.austin.utexas.edu:/tmp/.ICE-unix/2750'), ('INVOCATION_ID', '0ddafcf102064bf49ace1b1e49034af8'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/65d96998_1bfa_4df5_9c63_572ed2fd794d'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('DISPLAY', ':1'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1002/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.429'), ('SSH_AUTH_SOCK', '/run/user/1002/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/agalvan-admin/ros2_ws/install/lambda_tm:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://ubuntu.ubuntu:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1002/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/agalvan-admin/ros2_ws/build/lambda_tm'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/agalvan-admin/ros2_ws/install/force_dimension/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('ROS_HOSTNAME', 'ubuntu.ubuntu'), ('COLCON', '1'), ('MANPATH', ':/opt/puppetlabs/puppet/share/man'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/agalvan-admin/ros2_ws/install/lambda_tm:/home/agalvan-admin/ros2_ws/install/force_dimension:/opt/ros/galactic')]), 'shell': False}
+[0.301364] (-) TimerEvent: {}
+[0.368001] (lambda_tm) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target lambda_force\x1b[0m\n'}
+[0.401474] (-) TimerEvent: {}
+[0.411652] (lambda_tm) StdoutLine: {'line': b'[ 50%] Built target lambda_publisher\n'}
+[0.413781] (lambda_tm) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/lambda_force.dir/src/lambda_force.cpp.o\x1b[0m\n'}
+[0.501598] (-) TimerEvent: {}
+[0.602110] (-) TimerEvent: {}
+[0.702586] (-) TimerEvent: {}
+[0.803196] (-) TimerEvent: {}
+[0.903659] (-) TimerEvent: {}
+[1.004170] (-) TimerEvent: {}
+[1.104676] (-) TimerEvent: {}
+[1.205190] (-) TimerEvent: {}
+[1.305655] (-) TimerEvent: {}
+[1.406264] (-) TimerEvent: {}
+[1.506733] (-) TimerEvent: {}
+[1.607251] (-) TimerEvent: {}
+[1.707712] (-) TimerEvent: {}
+[1.808163] (-) TimerEvent: {}
+[1.908597] (-) TimerEvent: {}
+[2.009039] (-) TimerEvent: {}
+[2.109480] (-) TimerEvent: {}
+[2.110780] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LambdaForce::handle_disconnection()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.113015] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:76:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kint**\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kuint*\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int*\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.113468] (lambda_tm) StderrLine: {'line': b'   76 |         if(dhdGetVelocityThreshold(\x1b[01;31m\x1b[K&fx\x1b[m\x1b[K, fy, fz, tx, ty, tz, f) == 0) {\n'}
+[2.113639] (lambda_tm) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.113801] (lambda_tm) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[2.113959] (lambda_tm) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[Kint**\x1b[m\x1b[K\n'}
+[2.114113] (lambda_tm) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:22\x1b[m\x1b[K:\n'}
+[2.114267] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/sdk-3.15.0/include/dhdc.h:307:75:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kint dhdGetVelocityThreshold(uint*, char)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.114424] (lambda_tm) StderrLine: {'line': b'  307 |   int         __SDK dhdGetVelocityThreshold                        (\x1b[01;36m\x1b[Kuint *val\x1b[m\x1b[K, char ID = -1);\n'}
+[2.114584] (lambda_tm) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[K~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.114751] (lambda_tm) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.114905] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.115058] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.115232] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.115386] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.115537] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.115687] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.115841] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.115995] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.116144] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.116294] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:17\x1b[m\x1b[K:\n'}
+[2.116447] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:77:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kint**\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[2.116610] (lambda_tm) StderrLine: {'line': b'   77 |             RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"%d, %d, %d, %d, %d, %d, %d"\x1b[m\x1b[K, \x1b[32m\x1b[K&fx\x1b[m\x1b[K, &fy, &fz, &tx, &ty, &tz, &f);\n'}
+[2.116766] (lambda_tm) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~\x1b[m\x1b[K\n'}
+[2.116918] (lambda_tm) StderrLine: {'line': b'      |                                                                           \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[2.117071] (lambda_tm) StderrLine: {'line': b'      |                                                                           \x1b[32m\x1b[Kint**\x1b[m\x1b[K\n'}
+[2.117219] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:77:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[2.117369] (lambda_tm) StderrLine: {'line': b'   77 |             RCLCPP_INFO(this->get_logger(), "\x1b[01;36m\x1b[K%d\x1b[m\x1b[K, %d, %d, %d, %d, %d, %d", &fx, &fy, &fz, &tx, &ty, &tz, &f);\n'}
+[2.117520] (lambda_tm) StderrLine: {'line': b'      |                                              \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[2.117670] (lambda_tm) StderrLine: {'line': b'      |                                               \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[2.117822] (lambda_tm) StderrLine: {'line': b'      |                                               \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[2.117983] (lambda_tm) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.118137] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.118297] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.118448] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.118598] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.118748] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.118914] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.119069] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.119240] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.119399] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.119596] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:17\x1b[m\x1b[K:\n'}
+[2.119752] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:77:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Kint*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[2.119913] (lambda_tm) StderrLine: {'line': b'   77 |             RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"%d, %d, %d, %d, %d, %d, %d"\x1b[m\x1b[K, &fx, \x1b[32m\x1b[K&fy\x1b[m\x1b[K, &fz, &tx, &ty, &tz, &f);\n'}
+[2.120065] (lambda_tm) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K       \x1b[32m\x1b[K~~~\x1b[m\x1b[K\n'}
+[2.120215] (lambda_tm) StderrLine: {'line': b'      |                                                                                \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[2.120365] (lambda_tm) StderrLine: {'line': b'      |                                                                                \x1b[32m\x1b[Kint*\x1b[m\x1b[K\n'}
+[2.120516] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:77:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[2.120667] (lambda_tm) StderrLine: {'line': b'   77 |             RCLCPP_INFO(this->get_logger(), "%d, \x1b[01;36m\x1b[K%d\x1b[m\x1b[K, %d, %d, %d, %d, %d", &fx, &fy, &fz, &tx, &ty, &tz, &f);\n'}
+[2.120821] (lambda_tm) StderrLine: {'line': b'      |                                                  \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[2.120971] (lambda_tm) StderrLine: {'line': b'      |                                                   \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[2.121121] (lambda_tm) StderrLine: {'line': b'      |                                                   \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[2.121271] (lambda_tm) StderrLine: {'line': b'      |                                                  \x1b[32m\x1b[K%n\x1b[m\x1b[K\n'}
+[2.121422] (lambda_tm) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.121573] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.121723] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.121872] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.122033] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.122182] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.122330] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.122479] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.122628] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.122778] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.122926] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:17\x1b[m\x1b[K:\n'}
+[2.123075] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:77:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 7 has type \xe2\x80\x98\x1b[01m\x1b[Kint*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[2.123256] (lambda_tm) StderrLine: {'line': b'   77 |             RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"%d, %d, %d, %d, %d, %d, %d"\x1b[m\x1b[K, &fx, &fy, \x1b[32m\x1b[K&fz\x1b[m\x1b[K, &tx, &ty, &tz, &f);\n'}
+[2.123418] (lambda_tm) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K            \x1b[32m\x1b[K~~~\x1b[m\x1b[K\n'}
+[2.123569] (lambda_tm) StderrLine: {'line': b'      |                                                                                     \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[2.123717] (lambda_tm) StderrLine: {'line': b'      |                                                                                     \x1b[32m\x1b[Kint*\x1b[m\x1b[K\n'}
+[2.123867] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:77:55:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[2.124019] (lambda_tm) StderrLine: {'line': b'   77 |             RCLCPP_INFO(this->get_logger(), "%d, %d, \x1b[01;36m\x1b[K%d\x1b[m\x1b[K, %d, %d, %d, %d", &fx, &fy, &fz, &tx, &ty, &tz, &f);\n'}
+[2.124172] (lambda_tm) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[2.124320] (lambda_tm) StderrLine: {'line': b'      |                                                       \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[2.124475] (lambda_tm) StderrLine: {'line': b'      |                                                       \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[2.124642] (lambda_tm) StderrLine: {'line': b'      |                                                      \x1b[32m\x1b[K%n\x1b[m\x1b[K\n'}
+[2.124793] (lambda_tm) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.124949] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.125098] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.125247] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.125396] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.125554] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.125709] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.125860] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.126013] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.126166] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.126318] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:17\x1b[m\x1b[K:\n'}
+[2.126468] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:77:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 8 has type \xe2\x80\x98\x1b[01m\x1b[Kint*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[2.126634] (lambda_tm) StderrLine: {'line': b'   77 |             RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"%d, %d, %d, %d, %d, %d, %d"\x1b[m\x1b[K, &fx, &fy, &fz, \x1b[32m\x1b[K&tx\x1b[m\x1b[K, &ty, &tz, &f);\n'}
+[2.126789] (lambda_tm) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                 \x1b[32m\x1b[K~~~\x1b[m\x1b[K\n'}
+[2.126946] (lambda_tm) StderrLine: {'line': b'      |                                                                                          \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[2.127097] (lambda_tm) StderrLine: {'line': b'      |                                                                                          \x1b[32m\x1b[Kint*\x1b[m\x1b[K\n'}
+[2.127262] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:77:59:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[2.127417] (lambda_tm) StderrLine: {'line': b'   77 |             RCLCPP_INFO(this->get_logger(), "%d, %d, %d, \x1b[01;36m\x1b[K%d\x1b[m\x1b[K, %d, %d, %d", &fx, &fy, &fz, &tx, &ty, &tz, &f);\n'}
+[2.127573] (lambda_tm) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[2.127672] (lambda_tm) StderrLine: {'line': b'      |                                                           \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[2.127768] (lambda_tm) StderrLine: {'line': b'      |                                                           \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[2.127863] (lambda_tm) StderrLine: {'line': b'      |                                                          \x1b[32m\x1b[K%n\x1b[m\x1b[K\n'}
+[2.127959] (lambda_tm) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.128052] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.128146] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.128240] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.128337] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.128440] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.128546] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.128642] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.128754] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.128850] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.128945] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:17\x1b[m\x1b[K:\n'}
+[2.129040] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:77:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 9 has type \xe2\x80\x98\x1b[01m\x1b[Kint*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[2.129141] (lambda_tm) StderrLine: {'line': b'   77 |             RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"%d, %d, %d, %d, %d, %d, %d"\x1b[m\x1b[K, &fx, &fy, &fz, &tx, \x1b[32m\x1b[K&ty\x1b[m\x1b[K, &tz, &f);\n'}
+[2.129239] (lambda_tm) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                      \x1b[32m\x1b[K~~~\x1b[m\x1b[K\n'}
+[2.129342] (lambda_tm) StderrLine: {'line': b'      |                                                                                               \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[2.129439] (lambda_tm) StderrLine: {'line': b'      |                                                                                               \x1b[32m\x1b[Kint*\x1b[m\x1b[K\n'}
+[2.129543] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:77:63:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[2.129640] (lambda_tm) StderrLine: {'line': b'   77 |             RCLCPP_INFO(this->get_logger(), "%d, %d, %d, %d, \x1b[01;36m\x1b[K%d\x1b[m\x1b[K, %d, %d", &fx, &fy, &fz, &tx, &ty, &tz, &f);\n'}
+[2.129736] (lambda_tm) StderrLine: {'line': b'      |                                                              \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[2.129831] (lambda_tm) StderrLine: {'line': b'      |                                                               \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[2.129924] (lambda_tm) StderrLine: {'line': b'      |                                                               \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[2.130017] (lambda_tm) StderrLine: {'line': b'      |                                                              \x1b[32m\x1b[K%n\x1b[m\x1b[K\n'}
+[2.130111] (lambda_tm) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.130205] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.130301] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.130397] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.130493] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.130588] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.130684] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.130784] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.130879] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.130974] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.131071] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:17\x1b[m\x1b[K:\n'}
+[2.131178] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:77:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 10 has type \xe2\x80\x98\x1b[01m\x1b[Kint*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[2.131290] (lambda_tm) StderrLine: {'line': b'   77 |             RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"%d, %d, %d, %d, %d, %d, %d"\x1b[m\x1b[K, &fx, &fy, &fz, &tx, &ty, \x1b[32m\x1b[K&tz\x1b[m\x1b[K, &f);\n'}
+[2.131388] (lambda_tm) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                           \x1b[32m\x1b[K~~~\x1b[m\x1b[K\n'}
+[2.131485] (lambda_tm) StderrLine: {'line': b'      |                                                                                                    \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[2.131626] (lambda_tm) StderrLine: {'line': b'      |                                                                                                    \x1b[32m\x1b[Kint*\x1b[m\x1b[K\n'}
+[2.131787] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:77:67:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[2.131950] (lambda_tm) StderrLine: {'line': b'   77 |             RCLCPP_INFO(this->get_logger(), "%d, %d, %d, %d, %d, \x1b[01;36m\x1b[K%d\x1b[m\x1b[K, %d", &fx, &fy, &fz, &tx, &ty, &tz, &f);\n'}
+[2.132111] (lambda_tm) StderrLine: {'line': b'      |                                                                  \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[2.132266] (lambda_tm) StderrLine: {'line': b'      |                                                                   \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[2.132426] (lambda_tm) StderrLine: {'line': b'      |                                                                   \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[2.132583] (lambda_tm) StderrLine: {'line': b'      |                                                                  \x1b[32m\x1b[K%n\x1b[m\x1b[K\n'}
+[2.132738] (lambda_tm) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.132878] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.132982] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.133084] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.133187] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.133284] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.133433] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.133625] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.133809] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.133963] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.134143] (lambda_tm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:17\x1b[m\x1b[K:\n'}
+[2.134305] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:77:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 11 has type \xe2\x80\x98\x1b[01m\x1b[Kint*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[2.134465] (lambda_tm) StderrLine: {'line': b'   77 |             RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"%d, %d, %d, %d, %d, %d, %d"\x1b[m\x1b[K, &fx, &fy, &fz, &tx, &ty, &tz, \x1b[32m\x1b[K&f\x1b[m\x1b[K);\n'}
+[2.134605] (lambda_tm) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                \x1b[32m\x1b[K~~\x1b[m\x1b[K\n'}
+[2.134733] (lambda_tm) StderrLine: {'line': b'      |                                                                                                         \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[2.134879] (lambda_tm) StderrLine: {'line': b'      |                                                                                                         \x1b[32m\x1b[Kint*\x1b[m\x1b[K\n'}
+[2.134981] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:77:71:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[2.135079] (lambda_tm) StderrLine: {'line': b'   77 |             RCLCPP_INFO(this->get_logger(), "%d, %d, %d, %d, %d, %d, \x1b[01;36m\x1b[K%d\x1b[m\x1b[K", &fx, &fy, &fz, &tx, &ty, &tz, &f);\n'}
+[2.135202] (lambda_tm) StderrLine: {'line': b'      |                                                                      \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[2.135302] (lambda_tm) StderrLine: {'line': b'      |                                                                       \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[2.135417] (lambda_tm) StderrLine: {'line': b'      |                                                                       \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[2.135524] (lambda_tm) StderrLine: {'line': b'      |                                                                      \x1b[32m\x1b[K%n\x1b[m\x1b[K\n'}
+[2.135618] (lambda_tm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:62:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kb\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[2.135717] (lambda_tm) StderrLine: {'line': b'   62 |         uint \x1b[01;35m\x1b[Kb\x1b[m\x1b[K;\n'}
+[2.135810] (lambda_tm) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.209592] (-) TimerEvent: {}
+[2.310048] (-) TimerEvent: {}
+[2.410518] (-) TimerEvent: {}
+[2.510980] (-) TimerEvent: {}
+[2.611410] (-) TimerEvent: {}
+[2.711830] (-) TimerEvent: {}
+[2.812273] (-) TimerEvent: {}
+[2.912781] (-) TimerEvent: {}
+[3.013287] (-) TimerEvent: {}
+[3.113736] (-) TimerEvent: {}
+[3.214251] (-) TimerEvent: {}
+[3.314708] (-) TimerEvent: {}
+[3.415170] (-) TimerEvent: {}
+[3.515623] (-) TimerEvent: {}
+[3.529791] (lambda_tm) StderrLine: {'line': b'make[2]: *** [CMakeFiles/lambda_force.dir/build.make:63: CMakeFiles/lambda_force.dir/src/lambda_force.cpp.o] Error 1\n'}
+[3.530423] (lambda_tm) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/lambda_force.dir/all] Error 2\n'}
+[3.531098] (lambda_tm) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[3.534955] (lambda_tm) CommandEnded: {'returncode': 2}
+[3.615768] (-) TimerEvent: {}
+[3.716514] (-) TimerEvent: {}
+[3.817399] (-) TimerEvent: {}
+[3.876768] (lambda_tm) JobEnded: {'identifier': 'lambda_tm', 'rc': 2}
+[3.887717] (-) EventReactorShutdown: {}

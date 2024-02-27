@@ -1,0 +1,64 @@
+        if (dhdEnableExpertMode() < 0) {// Turns off Lambda.7 gravity compensation
+            RCLCPP_ERROR(this->get_logger(), "Failed to turn off gravity compensation: %s", dhdErrorGetLastStr());
+        }
+        uint b;
+        if(dhdGetVelocityThreshold(&b) == 0) {
+            RCLCPP_INFO(this->get_logger(), "%d", b);
+        }
+        if (dhdSetForceAndWristJointTorques(0.0, 0.0, 0.0, 0.0, 0.0, 0.0) < 0) {// Turns off Lambda.7 gravity compensation
+            RCLCPP_ERROR(this->get_logger(), "Failed to turn off gravity compensation: %s", dhdErrorGetLastStr());
+        }
+        if (dhdSetVelocityThreshold(30) < 0) {// Turns off Lambda.7 gravity compensation
+            RCLCPP_ERROR(this->get_logger(), "Failed to turn off gravity compensation: %s", dhdErrorGetLastStr());
+        }
+        if(dhdGetVelocityThreshold(&b) == 0) {
+            RCLCPP_INFO(this->get_logger(), "%d", b);
+        }
+        if (dhdSetGravityCompensation(DHD_OFF) < 0) {// Turns off Lambda.7 gravity compensation
+            RCLCPP_ERROR(this->get_logger(), "Failed to turn off gravity compensation: %s", dhdErrorGetLastStr());
+        }
+        if (dhdEnableForce(DHD_OFF) < 0) {// Turns off Lambda.7 gravity compensation
+            RCLCPP_ERROR(this->get_logger(), "Failed to turn off gravity compensation: %s", dhdErrorGetLastStr());
+        }
+        if (dhdSetForce(0.1, 0.1, 0.1) < 0) {// Sets Lambda.7 force feedback to default 0 force vector
+            RCLCPP_ERROR(this->get_logger(), "Failed to set a force: %s", dhdErrorGetLastStr());
+        }
+
+
+        //dhdSetForce()
+        double fx_1, fy_1, fz_1;
+        if (dhdSetForce(fx_1, fy_1, fz_1) == 0) {
+            RCLCPP_INFO(this->get_logger(), "dhdSetForce(): %.2f, %.2f, %.2f", fx_1, fy_1, fz_1;
+        }
+
+        //dhdSetForceAndGripperForce()
+        double fx_2, fy_2, fz_2, fg_2;
+        if (dhdSetForceAndTorque(fx_2, fy_2, fz_2, fg_2) == 0) {
+            RCLCPP_INFO(this->get_logger(), "dhdSetForceAndGripperForce(): %.2f, %.2f, %.2f, %.2f", fx_2, fy_2, fz_2, fg_2;
+        }
+
+        //dhdSetForceAndTorque()
+        double fx_3, fy_3, fz_3, tx_3, ty_3, tz_3;
+        if (dhdSetForceAndTorque(fx_3, fy_3, fz_3, tx_3, ty_3, tz_3) == 0) {
+            RCLCPP_INFO(this->get_logger(), "dhdSetForceAndTorque(): %.2f, %.2f, %.2f, %.2f, %.2f, %.2f", fx_3, fy_3, fz_3, tx_3, ty_3, tz_3;
+        }
+
+        dhdSetForce()
+        dhdSetForceAndGripperForce()
+        dhdSetForceAndTorque()
+        dhdSetForceAndTorqueAndGripperForce()
+        dhdSetForceAndWristJointTorques()
+        dhdSetForceAndWristJointTorquesAndGripperForce()
+
+        double fx, fy, fz, tx, ty, tz, fg = 0;
+        if(dhdSetForceAndTorqueAndGripperForce(fx, fy, fz, tx, ty, tz, fg) == 0) {
+            RCLCPP_INFO(this->get_logger(), "dhdSetForceAndTorqueAndGripperForce(): %.2f, %.2f, %.2f, %.2f, %.2f, %.2f, %.2f", fx, fy, fz, tx, ty, tz, fg);
+        }
+
+        double t0, t1, t2 = 0;
+        if(dhdSetForceAndWristJointTorquesAndGripperForce(fx, fy, fz, t0, t1, t2, fg) == 0) {
+            RCLCPP_INFO(this->get_logger(), "dhdSSetForceAndWristJointTorquesAndGripperForce(): %.2f, %.2f, %.2f, %.2f, %.2f, %.2f, %.2f", fx, fy, fz, t0, t1, t2, fg);
+        }
+        if (dhdSetBrakes(DHD_OFF) < 0) {// Sets Lambda.7 force feedback to default 0 force vector
+            RCLCPP_ERROR(this->get_logger(), "Failed to turn brakes off: %s", dhdErrorGetLastStr());
+        }

@@ -1,0 +1,19 @@
+[0.210s] Invoking command in '/home/agalvan-admin/ros2_ws/build/lambda_tm': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/agalvan-admin/ros2_ws/build/lambda_tm -- -j8 -l8
+[0.299s] [35m[1mScanning dependencies of target lambda_force[0m
+[0.329s] [ 50%] Built target lambda_publisher
+[0.337s] [ 75%] [32mBuilding CXX object CMakeFiles/lambda_force.dir/src/lambda_force.cpp.o[0m
+[1.781s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:24:12:[m[K [01;31m[Kerror: [m[Knamespace ‘[01m[Kstd::literals::chrono_literals[m[K’ not allowed in using-declaration
+[1.781s]    24 | using std::[01;31m[Kchrono_literals[m[K;
+[1.781s]       |            [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.832s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:[m[K In constructor ‘[01m[KLambdaForce::LambdaForce()[m[K’:
+[1.832s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:33:42:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+[1.832s]    33 |         timer_ = this->create_wall_timer([01;31m[K100ms[m[K, std::bind(&LambdaForce::check_connection, this)); //TODO: update the time for updatesd for the timer
+[1.833s]       |                                          [01;31m[K^~~~~[m[K
+[2.051s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:[m[K In member function ‘[01m[Kvoid LambdaForce::force_activator(const Vector3&) const[m[K’:
+[2.051s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:39:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_message_time_[m[K’ was not declared in this scope
+[2.051s]    39 |         [01;31m[Klast_message_time_[m[K = this->now();
+[2.052s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.484s] make[2]: *** [CMakeFiles/lambda_force.dir/build.make:63: CMakeFiles/lambda_force.dir/src/lambda_force.cpp.o] Error 1
+[3.484s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/lambda_force.dir/all] Error 2
+[3.485s] make: *** [Makefile:141: all] Error 2
+[3.487s] Invoked command in '/home/agalvan-admin/ros2_ws/build/lambda_tm' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/agalvan-admin/ros2_ws/build/lambda_tm -- -j8 -l8

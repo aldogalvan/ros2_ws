@@ -1,0 +1,38 @@
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:[m[K In member function ‘[01m[Kvoid LambdaForce::handle_disconnection()[m[K’:
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:76:36:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kint**[m[K’ to ‘[01m[Kuint*[m[K’ {aka ‘[01m[Kunsigned int*[m[K’}
+   76 |         if(dhdGetVelocityThreshold([01;31m[K&fx[m[K, &fy, &fz, &tx, &ty, &tz, &f) == 0) {
+      |                                    [01;31m[K^~~[m[K
+      |                                    [01;31m[K|[m[K
+      |                                    [01;31m[Kint**[m[K
+In file included from [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:22[m[K:
+[01m[K/home/agalvan-admin/sdk-3.15.0/include/dhdc.h:307:75:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kint dhdGetVelocityThreshold(uint*, char)[m[K’
+  307 |   int         __SDK dhdGetVelocityThreshold                        ([01;36m[Kuint *val[m[K, char ID = -1);
+      |                                                                     [01;36m[K~~~~~~^~~[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:17[m[K:
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:77:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kint*[m[K’ [[01;35m[K-Wformat=[m[K]
+   77 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"%d, %d, %d, %d, %d, %d, %d"[m[K, [32m[Kfx[m[K, fy, fz, tx, ty, tz, f);
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~[m[K
+      |                                                                           [32m[K|[m[K
+      |                                                                           [32m[Kint*[m[K
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:77:47:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   77 |             RCLCPP_INFO(this->get_logger(), "[01;36m[K%d[m[K, %d, %d, %d, %d, %d, %d", fx, fy, fz, tx, ty, tz, f);
+      |                                              [01;36m[K~^[m[K
+      |                                               [01;36m[K|[m[K
+      |                                               [01;36m[Kint[m[K
+      |                                              [32m[K%n[m[K
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:62:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kb[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   62 |         uint [01;35m[Kb[m[K;
+      |              [01;35m[K^[m[K
+make[2]: *** [CMakeFiles/lambda_force.dir/build.make:63: CMakeFiles/lambda_force.dir/src/lambda_force.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/lambda_force.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

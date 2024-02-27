@@ -1,0 +1,16 @@
+[35m[1mScanning dependencies of target lambda_publisher[0m
+[ 50%] Built target lambda_force
+[ 75%] [32mBuilding CXX object CMakeFiles/lambda_publisher.dir/src/lambda_publisher.cpp.o[0m
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:[m[K In member function ‘[01m[Kvoid LambdaPublisher::publishPoseMessage()[m[K’:
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:47:56:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kdouble (*)[3][m[K’ to ‘[01m[Kdouble*[m[K’
+   47 |         dhdGetPositionAndOrientationRad(&px, &py, &pz, [01;31m[Kmatrix[m[K);
+      |                                                        [01;31m[K^~~~~~[m[K
+      |                                                        [01;31m[K|[m[K
+      |                                                        [01;31m[Kdouble (*)[3][m[K
+In file included from [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:23[m[K:
+[01m[K/home/agalvan-admin/sdk-3.15.0/include/dhdc.h:255:113:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kint dhdGetPositionAndOrientationRad(double*, double*, double*, double*, double*, double*, char)[m[K’
+  255 |   int         __SDK dhdGetPositionAndOrientationRad                (double *px, double *py, double *pz, [01;36m[Kdouble *oa[m[K, double *ob, double *og, char ID = -1);
+      |                                                                                                         [01;36m[K~~~~~~~~^~[m[K
+make[2]: *** [CMakeFiles/lambda_publisher.dir/build.make:63: CMakeFiles/lambda_publisher.dir/src/lambda_publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/lambda_publisher.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

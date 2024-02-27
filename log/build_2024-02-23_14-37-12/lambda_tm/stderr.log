@@ -1,0 +1,43 @@
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:[m[K In member function ‘[01m[Kvoid LambdaForce::handle_disconnection()[m[K’:
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:59:2:[m[K [01;31m[Kerror: [m[K‘[01m[KTurn[m[K’ was not declared in this scope
+   59 |  [01;31m[KTurn[m[K off all forces
+      |  [01;31m[K^~~~[m[K
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:61:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kfx[m[K’ was not declared in this scope
+   61 |     if(dhdSetForceAndTorqueAndGripperForce([01;31m[Kfx[m[K, fy, fz, tx, ty, tz, fg) == 0) {
+      |                                            [01;31m[K^~[m[K
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:61:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kfy[m[K’ was not declared in this scope
+   61 |     if(dhdSetForceAndTorqueAndGripperForce(fx, [01;31m[Kfy[m[K, fz, tx, ty, tz, fg) == 0) {
+      |                                                [01;31m[K^~[m[K
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:61:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kfz[m[K’ was not declared in this scope
+   61 |     if(dhdSetForceAndTorqueAndGripperForce(fx, fy, [01;31m[Kfz[m[K, tx, ty, tz, fg) == 0) {
+      |                                                    [01;31m[K^~[m[K
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:61:56:[m[K [01;31m[Kerror: [m[K‘[01m[Ktx[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+   61 |     if(dhdSetForceAndTorqueAndGripperForce(fx, fy, fz, [01;31m[Ktx[m[K, ty, tz, fg) == 0) {
+      |                                                        [01;31m[K^~[m[K
+      |                                                        [32m[Ktm[m[K
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:61:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kty[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+   61 |     if(dhdSetForceAndTorqueAndGripperForce(fx, fy, fz, tx, [01;31m[Kty[m[K, tz, fg) == 0) {
+      |                                                            [01;31m[K^~[m[K
+      |                                                            [32m[Ktm[m[K
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:61:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ktz[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+   61 |     if(dhdSetForceAndTorqueAndGripperForce(fx, fy, fz, tx, ty, [01;31m[Ktz[m[K, fg) == 0) {
+      |                                                                [01;31m[K^~[m[K
+      |                                                                [32m[Ktm[m[K
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:61:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kfg[m[K’ was not declared in this scope
+   61 |     if(dhdSetForceAndTorqueAndGripperForce(fx, fy, fz, tx, ty, tz, [01;31m[Kfg[m[K) == 0) {
+      |                                                                    [01;31m[K^~[m[K
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:68:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kfx[m[K’ was not declared in this scope
+   68 |     if(dhdSetForceAndWristJointTorquesAndGripperForce([01;31m[Kfx[m[K, fy, fz, t0, t1, t2, fg) == 0) {
+      |                                                       [01;31m[K^~[m[K
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:68:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kfy[m[K’ was not declared in this scope
+   68 |     if(dhdSetForceAndWristJointTorquesAndGripperForce(fx, [01;31m[Kfy[m[K, fz, t0, t1, t2, fg) == 0) {
+      |                                                           [01;31m[K^~[m[K
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:68:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kfz[m[K’ was not declared in this scope
+   68 |     if(dhdSetForceAndWristJointTorquesAndGripperForce(fx, fy, [01;31m[Kfz[m[K, t0, t1, t2, fg) == 0) {
+      |                                                               [01;31m[K^~[m[K
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:68:79:[m[K [01;31m[Kerror: [m[K‘[01m[Kfg[m[K’ was not declared in this scope
+   68 |     if(dhdSetForceAndWristJointTorquesAndGripperForce(fx, fy, fz, t0, t1, t2, [01;31m[Kfg[m[K) == 0) {
+      |                                                                               [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/lambda_force.dir/build.make:63: CMakeFiles/lambda_force.dir/src/lambda_force.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/lambda_force.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

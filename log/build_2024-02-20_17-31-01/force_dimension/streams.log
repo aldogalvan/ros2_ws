@@ -1,0 +1,117 @@
+[0.356s] Invoking command in '/home/agalvan-admin/ros2_ws/build/force_dimension': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/agalvan-admin/ros2_ws/src/force_dimension -DCMAKE_CXX_STANDARD_LIBRARIES=-lusb-1.0 -DCMAKE_INSTALL_PREFIX=/home/agalvan-admin/ros2_ws/install/force_dimension
+[0.477s] -- The C compiler identification is GNU 9.4.0
+[0.566s] -- The CXX compiler identification is GNU 9.4.0
+[0.577s] -- Check for working C compiler: /usr/bin/cc
+[0.722s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.723s] -- Detecting C compiler ABI info
+[0.846s] -- Detecting C compiler ABI info - done
+[0.859s] -- Detecting C compile features
+[0.860s] -- Detecting C compile features - done
+[0.862s] -- Check for working CXX compiler: /usr/bin/c++
+[1.005s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.008s] -- Detecting CXX compiler ABI info
+[1.157s] -- Detecting CXX compiler ABI info - done
+[1.182s] -- Detecting CXX compile features
+[1.182s] -- Detecting CXX compile features - done
+[1.184s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.223s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.223s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.312s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[1.353s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.358s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.495s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.538s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.617s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.668s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.670s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.688s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.688s] -- Looking for pthread.h
+[1.824s] -- Looking for pthread.h - found
+[1.825s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.956s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.956s] -- Looking for pthread_create in pthreads
+[2.073s] -- Looking for pthread_create in pthreads - not found
+[2.073s] -- Looking for pthread_create in pthread
+[2.243s] -- Looking for pthread_create in pthread - found
+[2.244s] -- Found Threads: TRUE  
+[2.395s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[2.426s] -- Found example_interfaces: 0.9.2 (/opt/ros/galactic/share/example_interfaces/cmake)
+[2.536s] -- Found rclpy: 1.9.3 (/opt/ros/galactic/share/rclpy/cmake)
+[2.628s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[2.714s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.717s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.717s] -- Configured cppcheck include dirs: 
+[2.717s] -- Configured cppcheck exclude dirs and/or files: 
+[2.720s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.720s] -- Configured cpplint exclude dirs and/or files: 
+[2.720s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.721s] -- Added test 'lint_cmake' to check CMake code style
+[2.722s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.724s] -- Added test 'uncrustify' to check C / C++ code style
+[2.724s] -- Configured uncrustify additional arguments: 
+[2.725s] -- Added test 'xmllint' to check XML markup files
+[2.727s] -- Configuring done
+[2.736s] -- Generating done
+[2.738s] -- Build files have been written to: /home/agalvan-admin/ros2_ws/build/force_dimension
+[2.750s] Invoked command in '/home/agalvan-admin/ros2_ws/build/force_dimension' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/agalvan-admin/ros2_ws/src/force_dimension -DCMAKE_CXX_STANDARD_LIBRARIES=-lusb-1.0 -DCMAKE_INSTALL_PREFIX=/home/agalvan-admin/ros2_ws/install/force_dimension
+[2.757s] Invoking command in '/home/agalvan-admin/ros2_ws/build/force_dimension': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/agalvan-admin/ros2_ws/build/force_dimension -- -j8 -l8
+[2.846s] [35m[1mScanning dependencies of target ament_cmake_python_copy_force_dimension[0m
+[2.849s] [35m[1mScanning dependencies of target node[0m
+[2.888s] [  0%] Built target ament_cmake_python_copy_force_dimension
+[2.912s] [ 22%] [32mBuilding CXX object CMakeFiles/node.dir/src/log.cpp.o[0m
+[2.912s] [ 22%] [32mBuilding CXX object CMakeFiles/node.dir/src/node.cpp.o[0m
+[2.914s] [ 33%] [32mBuilding CXX object CMakeFiles/node.dir/src/parameters.cpp.o[0m
+[2.915s] [ 44%] [32mBuilding CXX object CMakeFiles/node.dir/src/entry_point.cpp.o[0m
+[2.916s] [ 55%] [32mBuilding CXX object CMakeFiles/node.dir/src/subscribe.cpp.o[0m
+[2.917s] [35m[1mScanning dependencies of target ament_cmake_python_build_force_dimension_egg[0m
+[2.921s] [ 66%] [32mBuilding CXX object CMakeFiles/node.dir/src/publish.cpp.o[0m
+[2.927s] [ 77%] [32mBuilding CXX object CMakeFiles/node.dir/src/gravity_compensation.cpp.o[0m
+[3.410s] running egg_info
+[3.411s] creating force_dimension.egg-info
+[3.411s] writing force_dimension.egg-info/PKG-INFO
+[3.411s] writing dependency_links to force_dimension.egg-info/dependency_links.txt
+[3.411s] writing top-level names to force_dimension.egg-info/top_level.txt
+[3.413s] writing manifest file 'force_dimension.egg-info/SOURCES.txt'
+[3.527s] reading manifest file 'force_dimension.egg-info/SOURCES.txt'
+[3.528s] writing manifest file 'force_dimension.egg-info/SOURCES.txt'
+[3.664s] [ 77%] Built target ament_cmake_python_build_force_dimension_egg
+[3.723s] [ 88%] [32mBuilding CXX object CMakeFiles/node.dir/src/forces.cpp.o[0m
+[11.376s] [100%] [32m[1mLinking CXX executable node[0m
+[11.830s] [100%] Built target node
+[11.847s] Invoked command in '/home/agalvan-admin/ros2_ws/build/force_dimension' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/agalvan-admin/ros2_ws/build/force_dimension -- -j8 -l8
+[11.990s] Invoking command in '/home/agalvan-admin/ros2_ws/build/force_dimension': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/agalvan-admin/ros2_ws/build/force_dimension
+[12.003s] -- Install configuration: ""
+[12.003s] -- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/lib/force_dimension/node
+[12.007s] -- Set runtime path of "/home/agalvan-admin/ros2_ws/install/force_dimension/lib/force_dimension/node" to ""
+[12.007s] -- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension//launch
+[12.007s] -- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension//launch/record_bag.launch.py
+[12.007s] -- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension//launch/example.launch.py
+[12.007s] -- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension//launch/echo_position.launch.py
+[12.007s] -- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension/environment/pythonpath.sh
+[12.008s] -- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension/environment/pythonpath.dsv
+[12.008s] -- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/lib/python3.8/site-packages//force_dimension.egg-info
+[12.008s] -- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/lib/python3.8/site-packages//force_dimension.egg-info/top_level.txt
+[12.008s] -- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/lib/python3.8/site-packages//force_dimension.egg-info/dependency_links.txt
+[12.008s] -- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/lib/python3.8/site-packages//force_dimension.egg-info/SOURCES.txt
+[12.008s] -- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/lib/python3.8/site-packages//force_dimension.egg-info/PKG-INFO
+[12.009s] -- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/lib/python3.8/site-packages/force_dimension
+[12.009s] -- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/lib/python3.8/site-packages/force_dimension/__init__.py
+[12.050s] Listing '/home/agalvan-admin/ros2_ws/install/force_dimension/lib/python3.8/site-packages/force_dimension'...
+[12.051s] Compiling '/home/agalvan-admin/ros2_ws/install/force_dimension/lib/python3.8/site-packages/force_dimension/__init__.py'...
+[12.055s] -- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/lib/force_dimension/run_example
+[12.055s] -- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/ament_index/resource_index/package_run_dependencies/force_dimension
+[12.055s] -- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/ament_index/resource_index/parent_prefix_path/force_dimension
+[12.056s] -- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension/environment/ament_prefix_path.sh
+[12.056s] -- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension/environment/ament_prefix_path.dsv
+[12.056s] -- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension/environment/path.sh
+[12.056s] -- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension/environment/path.dsv
+[12.057s] -- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension/local_setup.bash
+[12.057s] -- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension/local_setup.sh
+[12.057s] -- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension/local_setup.zsh
+[12.057s] -- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension/local_setup.dsv
+[12.058s] -- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension/package.dsv
+[12.058s] -- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/ament_index/resource_index/packages/force_dimension
+[12.058s] -- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension/cmake/force_dimensionConfig.cmake
+[12.058s] -- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension/cmake/force_dimensionConfig-version.cmake
+[12.059s] -- Installing: /home/agalvan-admin/ros2_ws/install/force_dimension/share/force_dimension/package.xml
+[12.063s] Invoked command in '/home/agalvan-admin/ros2_ws/build/force_dimension' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/agalvan-admin/ros2_ws/build/force_dimension

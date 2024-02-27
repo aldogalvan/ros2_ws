@@ -1,0 +1,141 @@
+[3.078s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.078s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fdf7e1633a0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fdf7e1633a0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fdf7dd48ee0>)
+[3.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.209s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/agalvan-admin/ros2_ws'
+[3.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.219s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.219s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.219s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.219s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.219s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.219s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/lambda_tm) by extensions ['ignore', 'ignore_ament_install']
+[3.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/lambda_tm) by extension 'ignore'
+[3.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/lambda_tm) by extension 'ignore_ament_install'
+[3.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/lambda_tm) by extensions ['colcon_pkg']
+[3.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/lambda_tm) by extension 'colcon_pkg'
+[3.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/lambda_tm) by extensions ['colcon_meta']
+[3.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/lambda_tm) by extension 'colcon_meta'
+[3.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/lambda_tm) by extensions ['ros']
+[3.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/lambda_tm) by extension 'ros'
+[3.222s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lambda_tm' with type 'ros.ament_cmake' and name 'lambda_tm'
+[3.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.499s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.499s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.607s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/agalvan-admin/ros2_ws/install
+[3.673s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 278 installed packages in /opt/ros/galactic
+[3.675s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.884s] Level 5:colcon.colcon_core.verb:set package 'lambda_tm' build argument 'cmake_args' from command line to 'None'
+[3.885s] Level 5:colcon.colcon_core.verb:set package 'lambda_tm' build argument 'cmake_target' from command line to 'None'
+[3.885s] Level 5:colcon.colcon_core.verb:set package 'lambda_tm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.885s] Level 5:colcon.colcon_core.verb:set package 'lambda_tm' build argument 'cmake_clean_cache' from command line to 'False'
+[3.885s] Level 5:colcon.colcon_core.verb:set package 'lambda_tm' build argument 'cmake_clean_first' from command line to 'False'
+[3.885s] Level 5:colcon.colcon_core.verb:set package 'lambda_tm' build argument 'cmake_force_configure' from command line to 'False'
+[3.885s] Level 5:colcon.colcon_core.verb:set package 'lambda_tm' build argument 'ament_cmake_args' from command line to 'None'
+[3.885s] Level 5:colcon.colcon_core.verb:set package 'lambda_tm' build argument 'catkin_cmake_args' from command line to 'None'
+[3.885s] Level 5:colcon.colcon_core.verb:set package 'lambda_tm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.885s] DEBUG:colcon.colcon_core.verb:Building package 'lambda_tm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/agalvan-admin/ros2_ws/build/lambda_tm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/agalvan-admin/ros2_ws/install/lambda_tm', 'merge_install': False, 'path': '/home/agalvan-admin/ros2_ws/src/lambda_tm', 'symlink_install': False, 'test_result_base': None}
+[3.951s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.023s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.023s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/agalvan-admin/ros2_ws/src/lambda_tm' with build type 'ament_cmake'
+[4.023s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/agalvan-admin/ros2_ws/src/lambda_tm'
+[4.094s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.095s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.095s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/agalvan-admin/ros2_ws/build/lambda_tm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/agalvan-admin/ros2_ws/build/lambda_tm -- -j8 -l8
+[10.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/agalvan-admin/ros2_ws/build/lambda_tm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/agalvan-admin/ros2_ws/build/lambda_tm -- -j8 -l8
+[11.062s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/agalvan-admin/ros2_ws/build/lambda_tm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/agalvan-admin/ros2_ws/build/lambda_tm
+[11.094s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lambda_tm)
+[11.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/agalvan-admin/ros2_ws/build/lambda_tm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/agalvan-admin/ros2_ws/build/lambda_tm
+[11.173s] Level 1:colcon.colcon_core.environment:checking '/home/agalvan-admin/ros2_ws/install/lambda_tm' for CMake module files
+[11.174s] Level 1:colcon.colcon_core.environment:checking '/home/agalvan-admin/ros2_ws/install/lambda_tm' for CMake config files
+[11.174s] Level 1:colcon.colcon_core.shell:create_environment_hook('lambda_tm', 'cmake_prefix_path')
+[11.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/hook/cmake_prefix_path.ps1'
+[11.229s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/hook/cmake_prefix_path.dsv'
+[11.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/hook/cmake_prefix_path.sh'
+[11.231s] Level 1:colcon.colcon_core.environment:checking '/home/agalvan-admin/ros2_ws/install/lambda_tm/lib'
+[11.231s] Level 1:colcon.colcon_core.environment:checking '/home/agalvan-admin/ros2_ws/install/lambda_tm/bin'
+[11.231s] Level 1:colcon.colcon_core.environment:checking '/home/agalvan-admin/ros2_ws/install/lambda_tm/lib/pkgconfig/lambda_tm.pc'
+[11.231s] Level 1:colcon.colcon_core.environment:checking '/home/agalvan-admin/ros2_ws/install/lambda_tm/lib/python3.8/site-packages'
+[11.231s] Level 1:colcon.colcon_core.environment:checking '/home/agalvan-admin/ros2_ws/install/lambda_tm/bin'
+[11.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/package.ps1'
+[11.287s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/package.dsv'
+[11.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/package.sh'
+[11.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/package.bash'
+[11.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/package.zsh'
+[11.289s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/agalvan-admin/ros2_ws/install/lambda_tm/share/colcon-core/packages/lambda_tm)
+[11.484s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lambda_tm)
+[11.538s] Level 1:colcon.colcon_core.environment:checking '/home/agalvan-admin/ros2_ws/install/lambda_tm' for CMake module files
+[11.539s] Level 1:colcon.colcon_core.environment:checking '/home/agalvan-admin/ros2_ws/install/lambda_tm' for CMake config files
+[11.539s] Level 1:colcon.colcon_core.shell:create_environment_hook('lambda_tm', 'cmake_prefix_path')
+[11.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/hook/cmake_prefix_path.ps1'
+[11.593s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/hook/cmake_prefix_path.dsv'
+[11.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/hook/cmake_prefix_path.sh'
+[11.594s] Level 1:colcon.colcon_core.environment:checking '/home/agalvan-admin/ros2_ws/install/lambda_tm/lib'
+[11.594s] Level 1:colcon.colcon_core.environment:checking '/home/agalvan-admin/ros2_ws/install/lambda_tm/bin'
+[11.594s] Level 1:colcon.colcon_core.environment:checking '/home/agalvan-admin/ros2_ws/install/lambda_tm/lib/pkgconfig/lambda_tm.pc'
+[11.595s] Level 1:colcon.colcon_core.environment:checking '/home/agalvan-admin/ros2_ws/install/lambda_tm/lib/python3.8/site-packages'
+[11.595s] Level 1:colcon.colcon_core.environment:checking '/home/agalvan-admin/ros2_ws/install/lambda_tm/bin'
+[11.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/package.ps1'
+[11.649s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/package.dsv'
+[11.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/package.sh'
+[11.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/package.bash'
+[11.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/agalvan-admin/ros2_ws/install/lambda_tm/share/lambda_tm/package.zsh'
+[11.651s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/agalvan-admin/ros2_ws/install/lambda_tm/share/colcon-core/packages/lambda_tm)
+[11.651s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.651s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.651s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.651s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.728s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.729s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.729s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.756s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.835s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agalvan-admin/ros2_ws/install/local_setup.ps1'
+[11.836s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/agalvan-admin/ros2_ws/install/_local_setup_util_ps1.py'
+[11.837s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agalvan-admin/ros2_ws/install/setup.ps1'
+[11.899s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agalvan-admin/ros2_ws/install/local_setup.sh'
+[11.899s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/agalvan-admin/ros2_ws/install/_local_setup_util_sh.py'
+[11.900s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agalvan-admin/ros2_ws/install/setup.sh'
+[11.973s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agalvan-admin/ros2_ws/install/local_setup.bash'
+[11.974s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agalvan-admin/ros2_ws/install/setup.bash'
+[12.029s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agalvan-admin/ros2_ws/install/local_setup.zsh'
+[12.029s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agalvan-admin/ros2_ws/install/setup.zsh'

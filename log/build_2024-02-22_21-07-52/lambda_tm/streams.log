@@ -1,0 +1,113 @@
+[0.621s] Invoking command in '/home/agalvan-admin/ros2_ws/build/lambda_tm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/agalvan-admin/ros2_ws/build/lambda_tm -- -j8 -l8
+[0.720s] [35m[1mScanning dependencies of target lambda_publisher[0m
+[0.745s] [ 50%] Built target lambda_force
+[0.764s] [ 75%] [32mBuilding CXX object CMakeFiles/lambda_publisher.dir/src/lambda_publisher.cpp.o[0m
+[1.004s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:105:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+[1.004s]   105 | 
+[1.005s]       | 
+[2.835s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:76:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[2.835s]    76 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing Linear Velocity: '<%.2f, %.2f, %.2f>' & Angular Velocity '<%.2f, %.2f, %.2f>'", msg.linear.x, msg.linear.y, msg.linear.z, msg.angular.x, msg.angular.y, msg.angular.z;
+[2.836s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.836s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:28:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.836s]    28 | [01;36m[K{[m[K
+[2.836s]       | [01;36m[K^[m[K
+[2.839s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:[m[K In constructor ‘[01m[KLambdaPublisher::LambdaPublisher()[m[K’:
+[2.840s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:33:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_publishers[m[K’?
+[2.840s]    33 |         [01;31m[Kpose_publisher_[m[K = this->create_publisher<geometry_msgs::msg::Pose>("lambda_pose", 10);
+[2.840s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.840s]       |         [32m[Kcount_publishers[m[K
+[2.847s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:34:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_publishers[m[K’?
+[2.847s]    34 |         [01;31m[Kvelocity_publisher_[m[K = this->create_publisher<geometry_msgs::msg::Twist>("lambda_velocity", 10);
+[2.847s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.847s]       |         [32m[Kcount_publishers[m[K
+[2.851s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:36:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[2.851s]    36 |         [01;31m[Ktimer_[m[K = this->create_wall_timer(100ms, [this]() {
+[2.851s]       |         [01;31m[K^~~~~~[m[K
+[2.851s]       |         [32m[Ktimer_t[m[K
+[2.859s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:[m[K In member function ‘[01m[Kvoid LambdaPublisher::publishPoseMessage()[m[K’:
+[2.859s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:47:9:[m[K [01;31m[Kerror: [m[K‘[01m[KdhdGetPositionAndOrientation[m[K’ was not declared in this scope; did you mean ‘[01m[KdhdGetPositionAndOrientationDeg[m[K’?
+[2.859s]    47 |         [01;31m[KdhdGetPositionAndOrientation[m[K(&px, &py, &pz, matrix);
+[2.859s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.859s]       |         [32m[KdhdGetPositionAndOrientationDeg[m[K
+[2.884s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:51:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ has no member named ‘[01m[Klinear[m[K’
+[2.885s]    51 |         msg.[01;31m[Klinear[m[K.x = px;
+[2.885s]       |             [01;31m[K^~~~~~[m[K
+[2.885s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:52:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ has no member named ‘[01m[Klinear[m[K’
+[2.885s]    52 |         msg.[01;31m[Klinear[m[K.y = py;
+[2.885s]       |             [01;31m[K^~~~~~[m[K
+[2.885s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:53:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ has no member named ‘[01m[Klinear[m[K’
+[2.885s]    53 |         msg.[01;31m[Klinear[m[K.z = pz;
+[2.885s]       |             [01;31m[K^~~~~~[m[K
+[2.885s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:54:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kangular[m[K’
+[2.886s]    54 |         msg.[01;31m[Kangular[m[K.x = quaternion.x();
+[2.886s]       |             [01;31m[K^~~~~~~[m[K
+[2.886s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:55:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kangular[m[K’
+[2.886s]    55 |         msg.[01;31m[Kangular[m[K.y = quaternion.y();
+[2.886s]       |             [01;31m[K^~~~~~~[m[K
+[2.886s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:56:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kangular[m[K’
+[2.886s]    56 |         msg.[01;31m[Kangular[m[K.z = quaternion.z();
+[2.886s]       |             [01;31m[K^~~~~~~[m[K
+[2.886s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:57:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kangular[m[K’
+[2.886s]    57 |         msg.[01;31m[Kangular[m[K.w = quaternion.w();
+[2.886s]       |             [01;31m[K^~~~~~~[m[K
+[2.886s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+[2.886s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[2.886s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[2.886s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[2.886s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.886s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[2.886s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[2.886s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.886s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[2.887s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[2.887s]                  from [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:15[m[K:
+[2.887s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:58:153:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ has no member named ‘[01m[Klinear[m[K’
+[2.887s]    58 |         RCLCPP_INFO(this->get_logger(), "Publishing Position: '(%.2f, %.2f, %.2f)' & Orientation Quaternion(x, y, z, w): (%.2f, %.2f, %.2f, %.2f)", msg.[01;31m[Klinear[m[K.x, msg.linear.y, msg.linear.z, msg.angular.x, msg.angular.y, msg.angular.z, msg.angular.w);
+[2.887s]       |                                                                                                                                                         [01;31m[K^~~~~~[m[K
+[2.887s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:58:167:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ has no member named ‘[01m[Klinear[m[K’
+[2.887s]    58 |         RCLCPP_INFO(this->get_logger(), "Publishing Position: '(%.2f, %.2f, %.2f)' & Orientation Quaternion(x, y, z, w): (%.2f, %.2f, %.2f, %.2f)", msg.linear.x, msg.[01;31m[Klinear[m[K.y, msg.linear.z, msg.angular.x, msg.angular.y, msg.angular.z, msg.angular.w);
+[2.887s]       |                                                                                                                                                                       [01;31m[K^~~~~~[m[K
+[2.887s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:58:181:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ has no member named ‘[01m[Klinear[m[K’
+[2.887s]    58 |         RCLCPP_INFO(this->get_logger(), "Publishing Position: '(%.2f, %.2f, %.2f)' & Orientation Quaternion(x, y, z, w): (%.2f, %.2f, %.2f, %.2f)", msg.linear.x, msg.linear.y, msg.[01;31m[Klinear[m[K.z, msg.angular.x, msg.angular.y, msg.angular.z, msg.angular.w);
+[2.887s]       |                                                                                                                                                                                     [01;31m[K^~~~~~[m[K
+[2.887s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:58:195:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kangular[m[K’
+[2.887s]    58 |         RCLCPP_INFO(this->get_logger(), "Publishing Position: '(%.2f, %.2f, %.2f)' & Orientation Quaternion(x, y, z, w): (%.2f, %.2f, %.2f, %.2f)", msg.linear.x, msg.linear.y, msg.linear.z, msg.[01;31m[Kangular[m[K.x, msg.angular.y, msg.angular.z, msg.angular.w);
+[2.887s]       |                                                                                                                                                                                                   [01;31m[K^~~~~~~[m[K
+[2.887s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:58:210:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kangular[m[K’
+[2.887s]    58 |         RCLCPP_INFO(this->get_logger(), "Publishing Position: '(%.2f, %.2f, %.2f)' & Orientation Quaternion(x, y, z, w): (%.2f, %.2f, %.2f, %.2f)", msg.linear.x, msg.linear.y, msg.linear.z, msg.angular.x, msg.[01;31m[Kangular[m[K.y, msg.angular.z, msg.angular.w);
+[2.887s]       |                                                                                                                                                                                                                  [01;31m[K^~~~~~~[m[K
+[2.887s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:58:225:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kangular[m[K’
+[2.887s]    58 |         RCLCPP_INFO(this->get_logger(), "Publishing Position: '(%.2f, %.2f, %.2f)' & Orientation Quaternion(x, y, z, w): (%.2f, %.2f, %.2f, %.2f)", msg.linear.x, msg.linear.y, msg.linear.z, msg.angular.x, msg.angular.y, msg.[01;31m[Kangular[m[K.z, msg.angular.w);
+[2.888s]       |                                                                                                                                                                                                                                 [01;31m[K^~~~~~~[m[K
+[2.888s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:58:240:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kangular[m[K’
+[2.888s]    58 |         RCLCPP_INFO(this->get_logger(), "Publishing Position: '(%.2f, %.2f, %.2f)' & Orientation Quaternion(x, y, z, w): (%.2f, %.2f, %.2f, %.2f)", msg.linear.x, msg.linear.y, msg.linear.z, msg.angular.x, msg.angular.y, msg.angular.z, msg.[01;31m[Kangular[m[K.w);
+[2.888s]       |                                                                                                                                                                                                                                                [01;31m[K^~~~~~~[m[K
+[2.889s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:59:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_publishers[m[K’?
+[2.889s]    59 |         [01;31m[Kpose_publisher_[m[K->publish(msg);
+[2.889s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.889s]       |         [32m[Kcount_publishers[m[K
+[2.889s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:[m[K In member function ‘[01m[Kvoid LambdaPublisher::publishVelocityMessage()[m[K’:
+[2.889s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:70:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kposition[m[K’
+[2.889s]    70 |         msg.[01;31m[Kposition[m[K.x = vx;
+[2.889s]       |             [01;31m[K^~~~~~~~[m[K
+[2.889s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:71:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kposition[m[K’
+[2.890s]    71 |         msg.[01;31m[Kposition[m[K.y = vy;
+[2.890s]       |             [01;31m[K^~~~~~~~[m[K
+[2.890s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:72:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kposition[m[K’
+[2.890s]    72 |         msg.[01;31m[Kposition[m[K.z = vz;
+[2.890s]       |             [01;31m[K^~~~~~~~[m[K
+[2.892s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:76:9:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+[2.893s]    76 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing Linear Velocity: '<%.2f, %.2f, %.2f>' & Angular Velocity '<%.2f, %.2f, %.2f>'", msg.linear.x, msg.linear.y, msg.linear.z, msg.angular.x, msg.angular.y, msg.angular.z;
+[2.893s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.893s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:76:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[2.893s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:64:5:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.893s]    64 |     [01;36m[K{[m[K
+[2.893s]       |     [01;36m[K^[m[K
+[2.893s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:[m[K At global scope:
+[2.893s] [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_publisher.cpp:76:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[2.893s]    76 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing Linear Velocity: '<%.2f, %.2f, %.2f>' & Angular Velocity '<%.2f, %.2f, %.2f>'", msg.linear.x, msg.linear.y, msg.linear.z, msg.angular.x, msg.angular.y, msg.angular.z;
+[2.893s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[3.635s] make[2]: *** [CMakeFiles/lambda_publisher.dir/build.make:63: CMakeFiles/lambda_publisher.dir/src/lambda_publisher.cpp.o] Error 1
+[3.636s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/lambda_publisher.dir/all] Error 2
+[3.637s] make: *** [Makefile:141: all] Error 2
+[3.641s] Invoked command in '/home/agalvan-admin/ros2_ws/build/lambda_tm' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/agalvan-admin/ros2_ws/build/lambda_tm -- -j8 -l8

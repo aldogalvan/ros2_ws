@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target lambda_publisher[0m
+[ 50%] Built target lambda_force
+[ 75%] [32mBuilding CXX object CMakeFiles/lambda_publisher.dir/src/lambda_publisher.cpp.o[0m

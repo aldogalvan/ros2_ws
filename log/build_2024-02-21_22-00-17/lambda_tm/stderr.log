@@ -1,0 +1,16 @@
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:[m[K In member function ‘[01m[Kvoid LambdaForce::handle_disconnection()[m[K’:
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:76:49:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kdouble*[m[K’ to ‘[01m[Kdouble[m[K’
+   76 |         if (dhdSetForceAndTorqueAndGripperForce([01;31m[K&fx[m[K, &fy, &fz, &tx, &ty, &tz, &f) == 0) {
+      |                                                 [01;31m[K^~~[m[K
+      |                                                 [01;31m[K|[m[K
+      |                                                 [01;31m[Kdouble*[m[K
+In file included from [01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:22[m[K:
+[01m[K/home/agalvan-admin/sdk-3.15.0/include/dhdc.h:268:76:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kint dhdSetForceAndTorqueAndGripperForce(double, double, double, double, double, double, double, char)[m[K’
+  268 |   int         __SDK dhdSetForceAndTorqueAndGripperForce            ([01;36m[Kdouble fx[m[K, double fy, double fz, double tx, double ty, double tz, double fg, char ID = -1);
+      |                                                                     [01;36m[K~~~~~~~^~[m[K
+[01m[K/home/agalvan-admin/ros2_ws/src/lambda_tm/src/lambda_force.cpp:62:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kb[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   62 |         uint [01;35m[Kb[m[K;
+      |              [01;35m[K^[m[K
+make[2]: *** [CMakeFiles/lambda_force.dir/build.make:63: CMakeFiles/lambda_force.dir/src/lambda_force.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/lambda_force.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
